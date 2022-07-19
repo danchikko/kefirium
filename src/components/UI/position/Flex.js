@@ -7,7 +7,8 @@ const Flex = (props) => {
 }
 
 const CreateFlex = styled.div`
-    width: ${(props) => props.width || ''};
+    max-width: ${(props) => props.width || ''};
+    width: 100%;
     display: flex;
     flex-direction: ${(props) => props.direction || 'stretch'};
     justify-content: ${(props) => props.justify  || 'stretch'};
