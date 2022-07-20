@@ -12,6 +12,7 @@ const CreateTitle = styled.h2`
 	font-family: 'Kanit', sans-serif;
 	font-family: 'M PLUS 1 Code', sans-serif;
 	font-family: 'Oxygen', sans-serif;
+	font-weight: ${(props) => props.weight || '700'};
 `
 
 export default Title

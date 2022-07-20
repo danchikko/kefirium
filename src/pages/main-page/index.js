@@ -8,6 +8,7 @@ import img from '../../aseets/images/recomended.png'
 import author from '../../aseets/images/author.webp'
 import { BiRuble } from 'react-icons/bi'
 import Button from '../../components/UI/buttons/Button'
+import Collaction from './Collaction'
 
 const Main = () => {
 	return (
@@ -73,6 +74,7 @@ const Main = () => {
 				</Flex>
 			</Background>
             <TrendPage />
+			<Collaction />
 		</Container>
 	)
 }
