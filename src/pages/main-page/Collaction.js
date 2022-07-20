@@ -62,7 +62,7 @@ const Collaction = () => {
 			</Title>
 			{data.map((el) => {
 				return (
-					<Card>
+					<Card key={el.id}>
 						<Photo src={el.img} alt='img' />
 						<Content>
 							<Title size='16px'>{el.title}</Title>

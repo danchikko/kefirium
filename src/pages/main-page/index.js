@@ -9,6 +9,10 @@ import author from '../../aseets/images/author.webp'
 import { BiRuble } from 'react-icons/bi'
 import Button from '../../components/UI/buttons/Button'
 import Collaction from './Collaction'
+import Famous from './Famous'
+import CategoriesPage from './CategoriesPage'
+import CreateNFT from './CreateNFT'
+import NeedKnow from './NeedKnow'
 
 const Main = () => {
 	return (
@@ -75,6 +79,10 @@ const Main = () => {
 			</Background>
             <TrendPage />
 			<Collaction />
+			<Famous />
+			<CategoriesPage />
+			<CreateNFT />
+			<NeedKnow />
 		</Container>
 	)
 }
