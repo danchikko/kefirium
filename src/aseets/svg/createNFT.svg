@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 100">
+  <title>Icon_NFT</title>
+  <g id="Слой_4" data-name="Слой 4">
+    <rect x="6.15385" y="5" width="117.69231" height="90" rx="3" style="fill: #bfc8ff"/>
+    <path d="M123.84613,92V70.22266c-8.7522,12.12976-27.37793,17.07947-44.15137,17.07947H6.15387V92a3,3,0,0,0,3,3H120.84613A3,3,0,0,0,123.84613,92Z" style="fill: #a0adfa"/>
+    <path d="M9.15385,5H120.84615a3,3,0,0,1,3,3V21.36532a0,0,0,0,1,0,0H6.15385a0,0,0,0,1,0,0V8A3,3,0,0,1,9.15385,5Z" style="fill: #675ef2"/>
+    <path d="M106.65405,21.3653h17.19208V8.97663C119.823,14.55237,113.71088,18.60724,106.65405,21.3653Z" style="fill: #4f45ed"/>
+    <line x1="98.33685" y1="13.6844" x2="104.21458" y2="13.6844" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="86.33684" y1="13.6844" x2="92.21457" y2="13.6844" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="74.33683" y1="13.6844" x2="80.21456" y2="13.6844" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="56.58843" y1="35.85291" x2="88.34633" y2="35.85291" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="56.58843" y1="42.45353" x2="98.83055" y2="42.45353" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="56.15464" y1="74.83185" x2="98.39676" y2="74.83185" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="28.72632" y1="74.83185" x2="46.44818" y2="74.83185" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="16.99606" y1="74.83185" x2="22.95682" y2="74.83185" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="56.58843" y1="51" x2="67.94633" y2="51" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="13.7684" y1="13.6844" x2="24.46316" y2="13.6844" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <circle cx="110.95113" cy="13.6844" r="1.80677"/>
+    <rect x="16.83371" y="33.04999" width="29.60999" height="33.09003" rx="3" style="fill: #e953da"/>
+    <path d="M16.83371,36.05a3.00237,3.00237,0,0,1,3-3h14.56l-4.9,7.78,4.09,9.52-10.04-2.54-6.71,5.88" style="fill: none;stroke: #000;stroke-linejoin: round;stroke-width: 4px"/>
+    <path d="M16.87519,63.51288a2.99009,2.99009,0,0,0,2.96246,2.62806H43.44818a3,3,0,0,0,3-3V53.963C38.46668,59.61085,27.63263,62.6081,16.87519,63.51288Z" style="fill: #c73ab9"/>
+    <path d="M16.83763,39.58974v-3.5435a3,3,0,0,1,3-3H43.44818a3,3,0,0,1,3,3V63.141a3,3,0,0,1-3,3H19.83763a3,3,0,0,1-3-3V47.64239" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="123.85" y1="21.36058" x2="6.15" y2="21.36058" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 4px"/>
+    <path d="M101.66316,5h19.183a3,3,0,0,1,3,3V76.11272" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 4px"/>
+    <path d="M123.84615,85.06617V92a3,3,0,0,1-3,3H9.15385a3,3,0,0,1-3-3V8a3,3,0,0,1,3-3H92.08421" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 4px"/>
+    <rect x="56.58843" y="59.14094" width="16.23103" height="7" rx="3.5" style="fill: #675ef2;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <rect x="78.81946" y="59.14094" width="16.23103" height="7" rx="3.5" style="fill: #675ef2;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+  </g>
+</svg>

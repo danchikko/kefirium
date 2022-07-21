@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 100">
+  <title>Icon_NFT</title>
+  <g id="Слой_3" data-name="Слой 3">
+    <rect x="6.15385" y="4.65864" width="117.69231" height="90" rx="3" style="fill: #f5e9ce"/>
+    <path d="M123.84613,91.65865V69.88131c-8.7522,12.12976-27.37793,17.07946-44.15137,17.07946H6.15387v4.69788a3,3,0,0,0,3,3H120.84613A3,3,0,0,0,123.84613,91.65865Z" style="fill: #f2d898"/>
+    <path d="M9.15385,4.65864H120.84615a3,3,0,0,1,3,3V21.024a0,0,0,0,1,0,0H6.15385a0,0,0,0,1,0,0V7.65864A3,3,0,0,1,9.15385,4.65864Z" style="fill: #23a2cc"/>
+    <path d="M106.65405,21.02394h17.19208V8.63527C119.823,14.211,113.71088,18.26589,106.65405,21.02394Z" style="fill: #1e8cb0"/>
+    <line x1="98.33685" y1="13.34305" x2="104.21458" y2="13.34305" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="86.33684" y1="13.34305" x2="92.21457" y2="13.34305" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="74.33683" y1="13.34305" x2="80.21456" y2="13.34305" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="13.7684" y1="13.34305" x2="24.46316" y2="13.34305" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 5px"/>
+    <circle cx="110.95113" cy="13.34305" r="1.80677"/>
+    <rect x="13.58417" y="29.70489" width="29.61055" height="33.09474" rx="3" style="fill: #bfc8ff"/>
+    <path d="M43.19,72.5992v22.06H13.58v-22.06a3.00237,3.00237,0,0,1,3-3H40.19A2.996,2.996,0,0,1,43.19,72.5992Z" style="fill: #bfc8ff"/>
+    <path d="M79.81,21.01924v18.91a3.00879,3.00879,0,0,1-3,3H53.19a3.00879,3.00879,0,0,1-3-3v-18.91Z" style="fill: #bfc8ff"/>
+    <rect x="50.19473" y="49.72479" width="29.61055" height="33.09474" rx="3" style="fill: #bfc8ff"/>
+    <rect x="86.80528" y="29.70489" width="29.61055" height="33.09474" rx="3" style="fill: #bfc8ff"/>
+    <path d="M116.42,72.5992v22.06H86.81v-22.06a2.996,2.996,0,0,1,3-3h23.61A3.00237,3.00237,0,0,1,116.42,72.5992Z" style="fill: #bfc8ff"/>
+    <path d="M116.42,77.10921v17.55H86.81v-8C97.58,85.75924,108.43,82.75924,116.42,77.10921Z" style="fill: #a0adfa"/>
+    <rect x="13.58002" y="86.95919" width="29.60999" height="7.70001" style="fill: #a0adfa"/>
+    <path d="M86.84283,60.17153a2.9901,2.9901,0,0,0,2.96247,2.62805h23.61053a3,3,0,0,0,3-3v-9.178C108.43433,56.26949,97.60028,59.26674,86.84283,60.17153Z" style="fill: #a0adfa"/>
+    <path d="M16.58417,62.79958H40.1947a3,3,0,0,0,3-3V56.65187c-10.9947,1.39052-21.83758,1-29.61053,1v2.14771A3,3,0,0,0,16.58417,62.79958Z" style="fill: #a0adfa"/>
+    <path d="M51.75793,40.36366H50.239a2.99174,2.99174,0,0,0,2.95569,2.56067H76.8053a3,3,0,0,0,3-3V35.23775C71.26959,38.78786,61.21942,40.36366,51.75793,40.36366Z" style="fill: #a0adfa"/>
+    <path d="M51.75793,80.25885H50.239a2.99174,2.99174,0,0,0,2.95569,2.56067H76.8053a3,3,0,0,0,3-3V75.13294C71.26959,78.68305,61.21942,80.25885,51.75793,80.25885Z" style="fill: #a0adfa"/>
+    <path d="M40.19472,29.70489a3,3,0,0,1,3,3V59.79962a3,3,0,0,1-3,3H16.58417a3,3,0,0,1-3-3V32.70489a3,3,0,0,1,3-3Z" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <path d="M43.19,72.5992v22.06H13.58v-22.06a3.00237,3.00237,0,0,1,3-3H40.19A2.996,2.996,0,0,1,43.19,72.5992Z" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <path d="M79.81,21.01924v18.91a3.00879,3.00879,0,0,1-3,3H53.19a3.00879,3.00879,0,0,1-3-3v-18.91Z" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <rect x="50.19473" y="49.72479" width="29.61055" height="33.09474" rx="3" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <rect x="86.80528" y="29.70489" width="29.61055" height="33.09474" rx="3" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <path d="M116.42,72.5992v22.06H86.81v-22.06a2.996,2.996,0,0,1,3-3h23.61A3.00237,3.00237,0,0,1,116.42,72.5992Z" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="27.84211" y1="21.01923" x2="6.15" y2="21.01923" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <line x1="123.85" y1="21.01923" x2="39.10526" y2="21.01923" style="fill: none;stroke: #000;stroke-linecap: round;stroke-miterlimit: 10;stroke-width: 4px"/>
+    <path d="M123.84615,41.72479V91.65864a3,3,0,0,1-3,3h-63.862" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 4px"/>
+    <path d="M46.56839,94.65864H9.15385a3,3,0,0,1-3-3v-84a3,3,0,0,1,3-3h111.6923a3,3,0,0,1,3,3v25.1127" style="fill: none;stroke: #000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 4px"/>
+  </g>
+</svg>

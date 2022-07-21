@@ -10,7 +10,8 @@ import Button from '../../components/UI/buttons/Button'
 
 const MainPage = () => {
 	return (
-		<Container>
+		<Background>
+			<Container>
 			<Flex direction='column' width='510px' margin='40px 0 0 0'>
 				<Title margin='30px 0 8px 0' size='46px'>
 					Кефириум - NFT за рубли. NFT для всех.
@@ -53,7 +54,7 @@ const MainPage = () => {
 				<Price>
 					<Flex>
 						<AuthorImg src={author} alt='authorImg' />
-						<Text color='#d9226e' size='12px'>
+						<Text margin="5px 0 0 0" color='#d9226e' size='12px'>
 							Evgenyi
 						</Text>
 					</Flex>
@@ -62,18 +63,27 @@ const MainPage = () => {
 					</Flex>
 				</Price>
 			</SecondDiv>
-		</Container>
+			</Container>
+		</Background>
 	)
 }
 
-const Container = styled.div`
+const Background = styled.div`
 	background: url(${backround}) no-repeat;
 	width: 100%;
 	height: 650px;
 	object-fit: cover;
+	padding: 90px 20px 0 20px;
+`
+
+const Container = styled.div`
+	max-width: 1350px;
+	width: 100%;
+	height: 650px;
+	margin: 0 auto;
+	padding: 20px;
 	display: flex;
 	justify-content: space-around;
-	padding: 90px 20px 0 20px;
 `
 
 const SecondDiv = styled.div`
