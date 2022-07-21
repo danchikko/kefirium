@@ -7,7 +7,7 @@ const Text = (props) => {
 }
 
 const CreateText = styled.p`
-    color: ${(props) => props.color || '#ffff'};
+    color: ${(props) => props.color || '#ffffff'};
     font-size: ${(props) => props.size || '14px'};
     line-height: ${(props) => props.line || ''};
     font-weight: ${(props) => props.weight || '500'};
