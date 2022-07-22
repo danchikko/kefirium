@@ -1,12 +1,14 @@
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
-import Main from './pages';
+import Categories from './pages/categories/Categories';
+// import Main from './pages';
 
 function App() {
   return (
     <div>
       <Header />
-        <Main />
+        {/* <Main /> */}
+        <Categories />
       <Footer />
     </div>
   );
