@@ -14,7 +14,7 @@ import CategoriesPage from './CategoriesPage'
 import CreateNFT from './CreateNFT'
 import NeedKnow from './NeedKnow'
 
-const Main = () => {
+const MainPage = () => {
 	return (
 		<Container>
 			<Background>
@@ -134,4 +134,4 @@ const AuthorImg = styled.img`
 	border-radius: 50%;
 	margin: 2px 10px 0 0;
 `
-export default Main
+export default MainPage;
