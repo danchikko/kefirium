@@ -1,13 +1,12 @@
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
-import UserOffer from './components/support/UserOffer';
+import Main from './pages';
 
 function App() {
   return (
     <div>
       <Header />
-        {/* <Main /> */}
-        <UserOffer />
+        <Main />
       <Footer />
     </div>
   );
