@@ -1,10 +1,13 @@
+import { useDispatch } from "react-redux";
 import styled from "styled-components";
+import { closeCategoriesModal } from "../../store/categoriesSlice";
 import FirstBlock from "./FirstBlock";
 import SecondBlock from "./SecondBlock";
 
 const Footer = () => {
+    const dispatch = useDispatch()
     return (
-        <MainFooter>
+        <MainFooter onClick={() => dispatch(closeCategoriesModal())}>
             <FirstBlock />
             <SpecialDiv />
             <SecondBlock />

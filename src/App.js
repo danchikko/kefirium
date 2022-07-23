@@ -1,14 +1,13 @@
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
-import Categories from './pages/categories/Categories';
-// import Main from './pages';
+import Main from './pages';
 
 function App() {
+
   return (
     <div>
       <Header />
-        {/* <Main /> */}
-        <Categories />
+        <Main/>
       <Footer />
     </div>
   );
