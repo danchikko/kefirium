@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { sortedPost } from '../../store/categoriesSlice'
 import { useState } from 'react'
 
@@ -13,9 +13,6 @@ const Navbar = () => {
 		collectibles: false,
 		virtualworlds: false,
 	})
-	console.log(navCategories)
-	const categories = useSelector((state) => state.categories.sorted)
-	console.log(categories)
 	const dispatch = useDispatch()
 
 	const allChangeHandler = () => {

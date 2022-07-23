@@ -1,40 +1,49 @@
 import styled from 'styled-components'
 import { FiSearch } from 'react-icons/fi'
 import { FiUser } from 'react-icons/fi'
-import { FiChevronRight } from 'react-icons/fi'
+// import { FiChevronRight } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
+import HeaderCategories from './HeaderCategories'
+import HeaderSupport from './HeaderSupport'
 
 const Header = () => {
 	return (
-		<MainHeader>
-			<Logo
-				src='https://kefirium.ru/_nuxt/img/logo.2f49735.svg'
-				alt='logo'
-			/>
-			<Search>
-				<InputSearch type='text' />
-				<ImgSearch />
-			</Search>
-			<Topics>
-				Категории <NavRight />
-			</Topics>
-			<Topics>
-				Поддержка <NavRight />
-			</Topics>
-			<CreateNFT>Создать NFT</CreateNFT>
-			<User />
-		</MainHeader>
+		<HeaderLayout>
+			<HeaderWrapper>
+				<Link style={{textDecoration: 'none', cursor: 'pointer'}} to="/"><Logo
+					src='https://kefirium.ru/_nuxt/img/logo.2f49735.svg'
+					alt='logo'
+				/></Link>
+				<Search>
+					<InputSearch type='text' />
+					<ImgSearch />
+				</Search>
+				<HeaderCategories />
+				<HeaderSupport />
+				<CreateNFT>Создать NFT</CreateNFT>
+				<User />
+			</HeaderWrapper>
+		</HeaderLayout>
 	)
 }
 
-const MainHeader = styled.header`
+const HeaderLayout = styled.div`
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	background: #ffff;
+	border-bottom: 2px solid #e1d8f1;
+`
+
+const HeaderWrapper = styled.header`
+	max-width: 1270px;
 	width: 100%;
 	height: 80px;
 	display: flex;
-	align-items: center;
 	justify-content: space-evenly;
-	padding: 0 15px;
-	position: fixed;
-	background: #ffff;
+	padding: 20px 0;
+	align-items: center;
+	margin: 0 auto;
 `
 
 const Logo = styled.img`
@@ -65,24 +74,6 @@ const InputSearch = styled.input`
 const ImgSearch = styled(FiSearch)`
 	height: 20px;
 	width: 18px;
-`
-
-const Topics = styled.p`
-	font-size: 15px;
-	color: #8f9499;
-	font-weight: 700;
-	display: flex;
-	align-items: center;
-	font-family: 'Bebas Neue', cursive;
-	font-family: 'Kanit', sans-serif;
-	font-family: 'M PLUS 1 Code', sans-serif;
-	font-family: 'Oxygen', sans-serif;
-`
-
-const NavRight = styled(FiChevronRight)`
-	margin-left: 5px;
-	width: 14px;
-	height: 14px;
 `
 
 const CreateNFT = styled.button`
