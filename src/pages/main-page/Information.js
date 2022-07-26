@@ -5,7 +5,7 @@ import collaction from '../../aseets/svg/collaction.svg'
 import create from '../../aseets/svg/createNFT.svg'
 import earning from '../../aseets/svg/earning.svg'
 
-const CreateNFT = () => {
+const InformationNFT = () => {
 	return (
 		<Container>
 			<Title color='#000' size='40px' margin='80px 0 40px 20px'>
@@ -89,4 +89,4 @@ const VideoForKefirium = styled.video`
 	margin-top: 100px;
 `
 
-export default CreateNFT
+export default InformationNFT

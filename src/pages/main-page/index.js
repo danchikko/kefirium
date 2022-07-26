@@ -11,8 +11,8 @@ import Button from '../../components/UI/buttons/Button'
 import Collaction from './Collaction'
 import Famous from './Famous'
 import CategoriesPage from './CategoriesPage'
-import CreateNFT from './CreateNFT'
 import NeedKnow from './NeedKnow'
+import InformationNFT from './Information'
 
 const MainPage = () => {
 	return (
@@ -81,7 +81,7 @@ const MainPage = () => {
 			<Collaction />
 			<Famous />
 			<CategoriesPage />
-			<CreateNFT />
+			<InformationNFT />
 			<NeedKnow />
 		</Container>
 	)

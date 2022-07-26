@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { FiSearch } from 'react-icons/fi'
 import { FiUser } from 'react-icons/fi'
-// import { FiChevronRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 import HeaderCategories from './HeaderCategories'
 import HeaderSupport from './HeaderSupport'
@@ -10,17 +9,23 @@ const Header = () => {
 	return (
 		<HeaderLayout>
 			<HeaderWrapper>
-				<Link style={{textDecoration: 'none', cursor: 'pointer'}} to="/"><Logo
-					src='https://kefirium.ru/_nuxt/img/logo.2f49735.svg'
-					alt='logo'
-				/></Link>
+				<Links
+					to='/'
+				>
+					<Logo
+						src='https://kefirium.ru/_nuxt/img/logo.2f49735.svg'
+						alt='logo'
+					/>
+				</Links>
 				<Search>
 					<InputSearch type='text' />
 					<ImgSearch />
 				</Search>
 				<HeaderCategories />
 				<HeaderSupport />
-				<CreateNFT>Создать NFT</CreateNFT>
+				<Links style={{maxWidth: '140px', width: '100%'}} to="/createNFT">
+					<CreateNFT>Создать NFT</CreateNFT>
+				</Links>
 				<User />
 			</HeaderWrapper>
 		</HeaderLayout>
@@ -92,6 +97,11 @@ const CreateNFT = styled.button`
 const User = styled(FiUser)`
 	width: 60px;
 	height: 25px;
+`
+
+const Links = styled(Link)`
+	text-decoration: none;
+	cursor: pointer;
 `
 
 export default Header
