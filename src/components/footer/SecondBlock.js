@@ -57,9 +57,9 @@ const Container = styled.div`
 	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 33px;
 	display: flex;
 	flex-direction: column;
+	padding: 30px 20px;
 `
 
 const Blocks = styled.div`
@@ -137,7 +137,6 @@ const SecondList = styled.div`
 const Info = styled.div`
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
     letter-spacing: 1px;
 `
 
