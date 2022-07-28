@@ -22,9 +22,10 @@ const Container = styled.div`
 	height: 130px;
 	display: flex;
 	justify-content: center;
-	gap: 40px;
+	gap: 37px;
 	align-items: center;
 	margin: 0 auto;
+	padding: 0 20px;
 `
 
 const Logo = styled.img`

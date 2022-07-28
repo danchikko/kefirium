@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 
 const HeaderSupport = () => {
 	const modal = useSelector((state) => state.categories.supportModal)
-	console.log(modal)
 	const dispatch = useDispatch()
 	return (
 		<div>
