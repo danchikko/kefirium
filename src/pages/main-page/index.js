@@ -94,7 +94,7 @@ const Container = styled.div`
 
 const Background = styled.div`
 	width: 100%;
-	height: 600px;
+	height: 640px;
 	display: flex;
 	justify-content: space-around;
 	background: url(${backround}) no-repeat;

@@ -1,19 +1,15 @@
-import { Fragment, useState } from "react"
-import styled from "styled-components"
-import Text from "../UI/typography/Text"
-import { BiRuble } from "react-icons/bi"
+import { Fragment } from 'react'
+import styled from 'styled-components'
+import Text from '../UI/typography/Text'
+import { BiRuble } from 'react-icons/bi'
+import { useDispatch } from 'react-redux'
+import { createPrice } from '../../store/postsSlice'
 
-const Price = (props) => {
-	const [state, setState] = useState()
+const Price = ({ value }) => {
+	const dispatch = useDispatch()
 
-	const priceChangeHandler = (e) => {
-		setState(e.target.value)
-	}
-
-	props.price(state)
-
-    return (
-        <Fragment>
+	return (
+		<Fragment>
 			<Text color='#000' size='15px' weight='700'>
 				Цена*
 			</Text>
@@ -21,12 +17,25 @@ const Price = (props) => {
 				<SpecialText>Минимальная - 59 ₽</SpecialText>
 				<SpecialText>Максимальная - 1 млрд ₽</SpecialText>
 			</Text>
+			{value > 58 ? (
+				''
+			) : (
+				<Text color='red' weight='700'>
+					Поле price должно быть не менее 59.
+				</Text>
+			)}
 			<PriceBlock>
-				<InputPrice onChange={priceChangeHandler} min='0' type='number' placeholder='Введите цену' />
+				<InputPrice
+					onChange={(e) => dispatch(createPrice(e.target.value))}
+					min='0'
+					type='number'
+					placeholder='Введите цену'
+					value={value}
+				/>
 				<BiRuble />
 			</PriceBlock>
-        </Fragment>
-    )
+		</Fragment>
+	)
 }
 
 const SpecialText = styled.p`
@@ -59,4 +68,4 @@ const InputPrice = styled.input`
 	border: none;
 `
 
-export default Price;
+export default Price

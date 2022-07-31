@@ -9,9 +9,7 @@ const Header = () => {
 	return (
 		<HeaderLayout>
 			<HeaderWrapper>
-				<Links
-					to='/'
-				>
+				<Links to='/'>
 					<Logo
 						src='https://kefirium.ru/_nuxt/img/logo.2f49735.svg'
 						alt='logo'
@@ -23,7 +21,10 @@ const Header = () => {
 				</Search>
 				<HeaderCategories />
 				<HeaderSupport />
-				<Links style={{maxWidth: '140px', width: '100%'}} to="/createNFT">
+				<Links
+					style={{ maxWidth: '140px', width: '100%' }}
+					to='/createNFT'
+				>
 					<CreateNFT>Создать NFT</CreateNFT>
 				</Links>
 				<User />

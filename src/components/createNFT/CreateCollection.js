@@ -1,16 +1,59 @@
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import styled from 'styled-components'
 import Text from '../UI/typography/Text'
 import Title from '../UI/typography/Title'
 import { AiOutlineClose } from 'react-icons/ai'
+import {
+	createCollectionBanner,
+	createCollectionCategories,
+	createCollectionDescription,
+	createCollectionImage,
+	createCollectionName,
+} from '../../store/postsSlice'
+import { useDispatch, useSelector } from 'react-redux'
+import Flex from '../UI/position/Flex'
 
 const CreateCollection = () => {
 	const [modal, setModal] = useState(false)
-	const [mainImage, setMainImage] = useState(null)
+	const [formIsValid, setFormIsValid] = useState(false)
+	const { mainImage, banner, name, categories, collectionDescription } =
+		useSelector((state) => state.posts)
+	const dispatch = useDispatch()
 
-	const handleOnChange = (e) => {
-		const [file] = e.target.files
-		setMainImage(URL.createObjectURL(file))
+	const collectionImageChange = (e) => {
+		const [img] = e.target.files
+		dispatch(createCollectionImage(URL.createObjectURL(img)))
+	}
+
+	const collectionBannerChange = (e) => {
+		const [banner] = e.target.files
+		dispatch(createCollectionBanner(URL.createObjectURL(banner)))
+	}
+
+	useEffect(() => {
+		if (mainImage && banner && name.length > 0 && categories.length > 0) {
+			setFormIsValid(true)
+		} else {
+			setFormIsValid(false)
+		}
+	}, [mainImage, banner, name, categories])
+
+	const submitChangeHandler = (e) => {
+		e.preventDefault()
+		const data = {
+			collectionImage: mainImage,
+			collectionBanner: banner,
+			collectionName: name,
+			collectionCategories: categories,
+			collectionDescription: collectionDescription,
+		}
+		fetch('http://localhost:3000/Categories', {
+			method: 'POST',
+			body: JSON.stringify(data),
+			headers: {
+				'Content-type': 'application/json',
+			},
+		})
 	}
 
 	return (
@@ -30,7 +73,10 @@ const CreateCollection = () => {
 				</CollectionButton>
 				{modal ? (
 					<Modal onClick={() => setModal(false)}>
-						<ModalContent onClick={(e) => e.stopPropagation()}>
+						<ModalContent
+							onSubmit={submitChangeHandler}
+							onClick={(e) => e.stopPropagation()}
+						>
 							<ModalHeader>
 								<Title color='#000000' size='22px'>
 									Создание коллекции
@@ -39,7 +85,7 @@ const CreateCollection = () => {
 									<ImageClose />
 								</CloseBtn>
 							</ModalHeader>
-							<Text color='#000000' size='14px'>
+							<Text weight='700' color='#000000' size='14px'>
 								Главное изображение*
 							</Text>
 							<Text>
@@ -53,12 +99,116 @@ const CreateCollection = () => {
 							<SpecialText>
 								2000х2000 пикселей. (Минимальный 1000х1000)
 							</SpecialText>
-							<input id='mainImg' style={{display: "none"}} type="file" onChange={handleOnChange}/>
+							<input
+								id='mainImg'
+								style={{ display: 'none' }}
+								type='file'
+								onChange={collectionImageChange}
+							/>
 							<BackroundContainer img={mainImage}>
 								<label htmlFor='mainImg'>
 									<Span>Загрузить файл</Span>
+									{mainImage === null ? (
+										<Text color='red' weight='700'>
+											Главное изображение обязательно
+										</Text>
+									) : (
+										''
+									)}
 								</label>
 							</BackroundContainer>
+							<Text weight='700' color='000000' size='14px'>
+								Баннер
+							</Text>
+							<SpecialText>
+								Рекомендуемые размеры для баннера 1920х250
+								пикселей
+							</SpecialText>
+							<input
+								style={{ display: 'none' }}
+								id='banner'
+								type='file'
+								onChange={collectionBannerChange}
+							/>
+							<BannerFile bannerImage={banner}>
+								<label htmlFor='banner'>
+									<Span>Загрузить файл</Span>
+								</label>
+							</BannerFile>
+							<Text color='#000000' size='14px' weight='700'>
+								Название*
+							</Text>
+							{name.length > 0 ? (
+								''
+							) : (
+								<Text color='red' weight='700'>
+									Поле Название обязательно
+								</Text>
+							)}
+							<InputName
+								type='text'
+								onChange={(e) =>
+									dispatch(
+										createCollectionName(e.target.value),
+									)
+								}
+							/>
+							<Text color='#000000' size='14px' weight='700'>
+								Категория*
+							</Text>
+							{categories.length > 0 ? (
+								''
+							) : (
+								<Text color='red' weight='700'>
+									поле Категория обязательно
+								</Text>
+							)}
+							<CategoriesSelect
+								onChange={(e) =>
+									dispatch(
+										createCollectionCategories(
+											e.target.value,
+										),
+									)
+								}
+							>
+								<option value='art'>Искусство</option>
+								<option value='sport'>Спорт</option>
+								<option value='music'>Музыка</option>
+								<option value='photo'>Фотография</option>
+								<option value='collectibles'>
+									Коллекционные предметы
+								</option>
+								<option value='virtualworlds'>
+									Виртуальные миры
+								</option>
+							</CategoriesSelect>
+							<Text color='#000000' size='14px' weight='700'>
+								Описание
+							</Text>
+							<Description
+								onChange={(e) =>
+									dispatch(
+										createCollectionDescription(
+											e.target.value,
+										),
+									)
+								}
+								placeholder='Введите описание'
+							/>
+							<Flex
+								align='center'
+								width='100%'
+								justify='center'
+								margin='40px 0'
+							>
+								<SubmitButton
+									type='submit'
+									disabled={!formIsValid}
+								>
+									Создать
+								</SubmitButton>
+							</Flex>
 						</ModalContent>
 					</Modal>
 				) : (
@@ -70,7 +220,9 @@ const CreateCollection = () => {
 }
 
 const CollectionContainer = styled.div`
+	width: 100%;
 	display: flex;
+	justify-content: space-between;
 `
 
 const SpecialText = styled.p`
@@ -83,7 +235,7 @@ const SpecialText = styled.p`
 `
 
 const CollectionInput = styled.input`
-	width: 100%;
+	width: 84%;
 	height: 62px;
 	background: #fafafa;
 	box-shadow: 0 4px 3px 0 rgb(103 59 183 / 10%);
@@ -95,16 +247,18 @@ const CollectionInput = styled.input`
 	margin-bottom: 30px;
 `
 
-const CollectionButton = styled.button`
+const CollectionButton = styled.div`
 	width: 62px;
 	height: 62px;
 	border-radius: 50%;
-	border: none;
 	background: #fafafa;
 	box-shadow: 0 4px 3px rgb(103 59 183 / 10%);
 	font-size: 40px;
 	color: #673bb7;
-	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
 `
 
 const Modal = styled.div`
@@ -119,14 +273,13 @@ const Modal = styled.div`
 	justify-content: center;
 	align-items: center;
 	overflow-y: auto;
-    overflow-x: hidden;
+	overflow-x: hidden;
 	padding-top: 80px;
-    padding-bottom: 80px;
+	padding-bottom: 80px;
 	z-index: var(--vs-zindex-2);
-
 `
 
-const ModalContent = styled.div`
+const ModalContent = styled.form`
 	padding: 30px;
 	border-radius: 12px;
 	background-color: #fafafa;
@@ -134,6 +287,7 @@ const ModalContent = styled.div`
 	width: 100%;
 	min-height: min-content;
 	max-height: max-content;
+	margin-top: 830px;
 `
 
 const ModalHeader = styled.header`
@@ -170,14 +324,86 @@ const BackroundContainer = styled.div`
 	box-shadow: 0 4px 3px rgb(103 59 183 / 10%);
 	border-radius: 12px;
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-bottom: 25px 0;
+	text-align: center;
 `
 
 const Span = styled.span`
 	color: #8f9499;
 	text-decoration: underline;
 	cursor: pointer;
+`
+
+const BannerFile = styled.div`
+	width: 480px;
+	height: 62px;
+	background-image: url(${(props) => props.bannerImage});
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 3px rgb(103 59 183 / 10%);
+	border-radius: 12px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin: 10px 0;
+`
+
+const InputName = styled.input`
+	box-shadow: 0 4px 3px 0 rgb(103 59 183 / 10%);
+	width: 100%;
+	height: 62px;
+	background: #fff;
+	font-size: 16px;
+	padding-left: 30px;
+	border: none;
+	border-radius: 35px;
+	outline: none;
+	margin-bottom: 25px;
+`
+
+const CategoriesSelect = styled.select`
+	width: 100%;
+	border-radius: 30px;
+	box-shadow: 0 4px 3px 0 rgb(103 59 183 / 10%);
+	height: 62px;
+	background: #fff;
+	outline: none;
+	padding: 0 30px;
+	color: #8f9499;
+	border: none;
+	font-size: 18px;
+	margin-bottom: 30px;
+`
+
+const Description = styled.textarea`
+	resize: none;
+	width: 100%;
+	font-size: 16px;
+	box-shadow: 0 4px 3px 0 rgb(103 59 183 / 10%);
+	height: 250px;
+	padding: 20px;
+	border: none;
+	outline: none;
+	resize: none;
+	background: #fafafa;
+	border-radius: 25px;
+`
+
+const SubmitButton = styled.button`
+	width: 170px;
+	height: 60px;
+	background-color: #673bb7;
+	border: 1px solid #673bb7;
+	border-radius: 30px;
+	box-shadow: 0 4px 3px rgb(103 59 183 / 10%);
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	cursor: pointer;
+	color: #ffffff;
+	font-weight: 700;
 `
 
 export default CreateCollection

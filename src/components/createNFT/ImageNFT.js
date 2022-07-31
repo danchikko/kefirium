@@ -1,23 +1,21 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import styled from 'styled-components'
 import Text from '../UI/typography/Text'
+import { useDispatch } from 'react-redux/es/exports'
+import { createImage } from '../../store/postsSlice'
 
-const ImageNFT = (props) => {
-	const [url, setUrl] = useState()
-	const [background, setBackground] = useState(false)
+const ImageNFT = ({img}) => {
+	const dispatch = useDispatch()
 
-	const onImageChange = (e) => {
+	const mainImageChangeHandler = (e) => {
 		const [file] = e.target.files
-		setUrl(URL.createObjectURL(file))
-		setBackground(true)
+		dispatch(createImage(URL.createObjectURL(file)))
 	}
-
-	props.image(url)
 
 	return (
 		<Fragment>
 			<CreateNFTInput
-				onChange={onImageChange}
+				onChange={mainImageChangeHandler}
 				type='file'
 				id='inputFileNFT'
 			/>
@@ -38,14 +36,10 @@ const ImageNFT = (props) => {
 				<SpecialText>2000х2000 px.</SpecialText>
 				<SpecialText>(Минимальный 1000х1000)</SpecialText>
 			</Text>
-			<CreateNFTFile>
-				<BackgroundImage
-					src={url}
-					alt='image'
-					style={{ display: background ? 'block' : 'none' }}
-				/>
+			<CreateNFTFile url={img}>
 				<label htmlFor='inputFileNFT'>
-					<Span style={{display: background ? 'none' : 'block'}}>Загрузить файл</Span>
+					<Span>Загрузить файл</Span>
+					{img === null ? <p style={{color: 'red', fontWeight: 600}}>Файл обязателен</p> : ''}
 				</label>
 			</CreateNFTFile>
 		</Fragment>
@@ -73,20 +67,15 @@ const CreateNFTFile = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #fafafa;
+	flex-direction: column;
 	border-radius: 12px;
 	box-shadow: 0 4px 3px rgb(103 59 183 / 10%);
-`
-
-const BackgroundImage = styled.img`
-	max-width: 270px;
-	width: 100%;
-	height: 270px;
-	background-repeat: no-repeat;
+	background-image: url(${(props) => props.url});
+	background-position: center;
 	background-size: cover;
-	border-radius: 12px;
-    object-fit: cover;
-    background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	text-align: center;
 `
 
 const Span = styled.span`

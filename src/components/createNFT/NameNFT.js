@@ -1,25 +1,23 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import styled from 'styled-components'
 import Text from '../UI/typography/Text'
+import { useDispatch } from 'react-redux'
+import { createName } from '../../store/postsSlice'
 
-const NameNFT = (props) => {
-	const [name, setName] = useState('')
- 
-	const nameChangeHandler = (e) => {
-		setName(e.target.value)
-	}
-
-	props.name(name)
+const NameNFT = ({value}) => {
+	const dispatch = useDispatch()
 
 	return (
 		<Fragment>
 			<Text size='15px' weight='700' color='#000'>
 				Название*
 			</Text>
+			{value.length === 0 ? <Text color="red" weight="700">Поле Название обязательно</Text> : ''}
 			<InputForm
-				onChange={nameChangeHandler}
+				onChange={(e) => dispatch(createName(e.target.value))}
 				type='text'
 				placeholder='Введите название'
+				value={value}
 			/>
 		</Fragment>
 	)
