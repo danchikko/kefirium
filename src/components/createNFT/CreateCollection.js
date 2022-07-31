@@ -19,6 +19,7 @@ const CreateCollection = () => {
 	const { mainImage, banner, name, categories, collectionDescription } =
 		useSelector((state) => state.posts)
 	const dispatch = useDispatch()
+	console.log(formIsValid)
 
 	const collectionImageChange = (e) => {
 		const [img] = e.target.files
@@ -41,6 +42,7 @@ const CreateCollection = () => {
 	const submitChangeHandler = (e) => {
 		e.preventDefault()
 		const data = {
+			id: new Date().toLocaleDateString(),
 			collectionImage: mainImage,
 			collectionBanner: banner,
 			collectionName: name,
@@ -74,7 +76,6 @@ const CreateCollection = () => {
 				{modal ? (
 					<Modal onClick={() => setModal(false)}>
 						<ModalContent
-							onSubmit={submitChangeHandler}
 							onClick={(e) => e.stopPropagation()}
 						>
 							<ModalHeader>
@@ -203,7 +204,7 @@ const CreateCollection = () => {
 								margin='40px 0'
 							>
 								<SubmitButton
-									type='submit'
+									onClick={submitChangeHandler}
 									disabled={!formIsValid}
 								>
 									Создать
@@ -279,7 +280,7 @@ const Modal = styled.div`
 	z-index: var(--vs-zindex-2);
 `
 
-const ModalContent = styled.form`
+const ModalContent = styled.div`
 	padding: 30px;
 	border-radius: 12px;
 	background-color: #fafafa;

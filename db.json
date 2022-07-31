@@ -37,6 +37,31 @@
       "price": "85"
     }
   ],
-  "Categories": [],
+  "Categories": [
+    {
+      "collectionImage": "blob:http://localhost:3001/94a61e82-b344-442b-a360-6a996676c578",
+      "collectionBanner": "blob:http://localhost:3001/1f19d10a-6a16-4c1c-96d1-1bae904f70ef",
+      "collectionName": "sfsdf",
+      "collectionCategories": "photo",
+      "collectionDescription": "sdfsdf dfdsf sdfdsf",
+      "id": 1
+    },
+    {
+      "collectionImage": "blob:http://localhost:3001/94a61e82-b344-442b-a360-6a996676c578",
+      "collectionBanner": "blob:http://localhost:3001/1f19d10a-6a16-4c1c-96d1-1bae904f70ef",
+      "collectionName": "sfsdf",
+      "collectionCategories": "photo",
+      "collectionDescription": "sdfsdf dfdsf sdfdsf",
+      "id": 2
+    },
+    {
+      "id": "01.08.2022",
+      "collectionImage": "blob:http://localhost:3001/94a61e82-b344-442b-a360-6a996676c578",
+      "collectionBanner": "blob:http://localhost:3001/1f19d10a-6a16-4c1c-96d1-1bae904f70ef",
+      "collectionName": "sfsdf dsfsdf",
+      "collectionCategories": "photo",
+      "collectionDescription": "sdfsdf"
+    }
+  ],
   "users": []
 }
