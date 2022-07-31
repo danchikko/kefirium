@@ -204,7 +204,6 @@ const CreateCollection = () => {
 								margin='40px 0'
 							>
 								<SubmitButton
-									type='submit'
 									onClick={submitChangeHandler}
 									disabled={!formIsValid}
 								>
