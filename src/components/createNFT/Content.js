@@ -2,20 +2,17 @@ import { Fragment, useState } from 'react'
 import styled from 'styled-components'
 import Text from '../UI/typography/Text'
 import { IoIosRadioButtonOff } from 'react-icons/io'
+import { useDispatch } from 'react-redux'
+import { createContent } from '../../store/postsSlice'
 
-const Content = (props) => {
-	const [content, setContent] = useState(false)
-	const [state, setState] = useState('')
+const Content = ({value}) => {
+	const [onContent, setOnContent] = useState(false)
+
+	const dispatch = useDispatch()
 
 	const contentChangeHandler = () => {
-		setContent((prevState) => !prevState)
+		setOnContent((prevState) => !prevState)
 	}
-
-	const onStateHandler = (e) => {
-		setState(e.target.value)
-	}
-
-	props.content(state)
 
 	return (
 		<Fragment>
@@ -25,11 +22,11 @@ const Content = (props) => {
 				</Text>
 				<ContentClick
 					style={{
-						background: content ? '#673bb7' : '#f0f3f4',
+						background: onContent ? '#673bb7' : '#f0f3f4',
 					}}
 					onClick={contentChangeHandler}
 				>
-					{content ? <RadioTrue /> : <RadioFalse />}
+					{onContent ? <RadioTrue /> : <RadioFalse />}
 				</ContentClick>
 			</ContentDiv>
 			<Text>
@@ -37,10 +34,11 @@ const Content = (props) => {
 					Добавьте контент, который будет видеть только владелец NFT
 				</SpecialText>
 			</Text>
-			{content ? (
+			{onContent ? (
 				<TextArea
-					onChange={onStateHandler}
+					onChange={(e) => dispatch(createContent(e.target.value))}
 					placeholder='Добавьте скрытый контент в виде текста и/или ссылки на внешний ресурс, например Яндекс.Диск'
+					value={value}
 				/>
 			) : (
 				''
@@ -87,6 +85,7 @@ const ContentClick = styled.div`
 	border: none;
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 `
 
 const RadioFalse = styled(IoIosRadioButtonOff)`

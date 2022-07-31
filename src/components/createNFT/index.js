@@ -7,17 +7,47 @@ import DescriptionNFT from './DescriptionNFT'
 import Reference from './Reference'
 import Content from './Content'
 import Price from './Pirce'
-import { useCallback, useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import {
+	createContent,
+	createDescription,
+	createImage,
+	createName,
+	createPrice,
+	createReference,
+} from '../../store/postsSlice'
 
 const CreateFormNFT = () => {
-	const [NFTImage, setNFTImage] = useState('')
-	const [NFTName, setNFTName] = useState('')
-	const [description, setDescription] = useState('')
-	const [reference, setReference] = useState('')
-	const [content, setContent] = useState('')
-	const [price, setPrice] = useState()
+	const [formIsValid, setFormIsValid] = useState(false)
+
+	const dispatch = useDispatch()
+
+	const {
+		NFTImage,
+		NFTName,
+		description,
+		reference,
+		content,
+		price,
+	} = useSelector((state) => state.posts)
+
+	useEffect(() => {
+		if (
+			NFTImage &&
+			NFTName.length > 0 &&
+			description.length > 0 &&
+			price > 58
+		) {
+			setFormIsValid(true)
+		} else {
+			setFormIsValid(false)
+		}
+	}, [NFTImage, NFTName, description, price])
+
 	const submitHandler = (e) => {
 		e.preventDefault()
+
 		const data = {
 			id: new Date().toLocaleString(),
 			NFTImage: NFTImage,
@@ -26,52 +56,31 @@ const CreateFormNFT = () => {
 			reference: reference,
 			content: content,
 			price: price,
-			collection: {
-				categories: 'music',
-			},
 		}
-		fetch('http://localhost:3000/employees', {
+		fetch('http://localhost:3000/NFTtokens', {
 			method: 'POST',
 			body: JSON.stringify(data),
 			headers: {
 				'Content-type': 'application/json',
 			},
 		})
+		dispatch(createImage(null))
+		dispatch(createName(''))
+		dispatch(createDescription(''))
+		dispatch(createReference(''))
+		dispatch(createContent(''))
+		dispatch(createPrice(''))
 	}
-
-	const getImage = useCallback((url) => {
-		setNFTImage(url)
-	}, [])
-
-	const getName = useCallback((NFTName) => {
-		setNFTName(NFTName)
-	}, [])
-
-	const getDescription = useCallback((get) => {
-		setDescription(get)
-	}, [])
-
-	const getReference = useCallback((referenceUrl) => {
-		setReference(referenceUrl)
-	}, [])
-
-	const getContent = useCallback((getContent) => {
-		setContent(getContent)
-	}, [])
-
-	const getPrice = useCallback((price) => {
-		setPrice(price)
-	}, [])
 
 	return (
 		<FormContainer onSubmit={submitHandler}>
-			<ImageNFT image={getImage} />
-			<NameNFT name={getName} />
-			<DescriptionNFT description={getDescription} />
-			<Reference reference={getReference} />
+			<ImageNFT img={NFTImage} />
+			<NameNFT value={NFTName} />
+			<DescriptionNFT value={description} />
+			<Reference value={reference} />
 			<CreateCollection />
-			<Content content={getContent} />
-			<Price price={getPrice} />
+			<Content value={content} />
+			<Price value={price} />
 			<Text color='#000' size='15px' weight='700'>
 				Роялти*
 			</Text>
@@ -83,7 +92,9 @@ const CreateFormNFT = () => {
 					адрес выплаты по вашему выбору. (Фиксированное роялти 5%)
 				</SpecialText>
 			</Text>
-			<SubmitButton type='submit'>Создать</SubmitButton>
+			<SubmitButton type='submit' disabled={!formIsValid}>
+				Создать
+			</SubmitButton>
 		</FormContainer>
 	)
 }

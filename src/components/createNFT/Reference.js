@@ -1,15 +1,11 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import styled from 'styled-components'
 import Text from '../UI/typography/Text'
+import { useDispatch } from 'react-redux'
+import { createReference } from '../../store/postsSlice'
 
-const Reference = (props) => {
-	const [reference, setReference] = useState('')
-
-	const referenceChangeHandler = (e) => {
-		setReference(e.target.value)
-	}
-
-	props.reference(reference)
+const Reference = ({value}) => {
+	const dispatch = useDispatch()
 
 	return (
 		<Fragment>
@@ -23,9 +19,10 @@ const Reference = (props) => {
 				</SpecialText>
 			</Text>
 			<InputReference
-				onChange={referenceChangeHandler}
+				onChange={(e) => dispatch(createReference(e.target.value))}
 				type='text'
 				placeholder='Введите ссылку'
+				value={value}
 			/>
 		</Fragment>
 	)

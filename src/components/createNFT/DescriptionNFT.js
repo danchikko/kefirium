@@ -1,22 +1,23 @@
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 import styled from 'styled-components'
 import Text from '../UI/typography/Text'
+import { useDispatch } from 'react-redux'
+import { createDescription } from '../../store/postsSlice'
 
-const DescriptionNFT = (props) => {
-	const [description, setDescription] = useState('')
-
-	const descriptionChangeHandler = (e) => {
-		setDescription(e.target.value)
-	}
-
-	props.description(description)
+const DescriptionNFT = ({value}) => {
+	const dispatch = useDispatch()
 
 	return (
 		<Fragment>
 			<Text size='15px' weight='700' color='#000'>
 				Описание*
 			</Text>
-			<TextArea onChange={descriptionChangeHandler} placeholder='Введите описание' />
+			{value.length === 0 ? <Text color="red" weight="700">Поле Описание обязательно.</Text> : ''}
+			<TextArea
+				onChange={(e) => dispatch(createDescription(e.target.value))}
+				placeholder='Введите описание'
+				value={value}
+			/>
 		</Fragment>
 	)
 }
