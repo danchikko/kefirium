@@ -19,7 +19,6 @@ const CreateCollection = () => {
 	const { mainImage, banner, name, categories, collectionDescription } =
 		useSelector((state) => state.posts)
 	const dispatch = useDispatch()
-	console.log(formIsValid)
 
 	const collectionImageChange = (e) => {
 		const [img] = e.target.files
