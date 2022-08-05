@@ -7,10 +7,10 @@ import {
 	closeSupportModal,
 	modalCategories,
 	sortedPost,
-} from '../../store/categoriesSlice'
+} from '../../store/optionsSlice'
 
 const HeaderCategories = () => {
-	const modal = useSelector((state) => state.categories.categoriesModal)
+	const modal = useSelector((state) => state.options.categoriesModal)
 	const dispatch = useDispatch()
 	return (
 		<div>

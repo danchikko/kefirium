@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { useDispatch } from 'react-redux'
-import { sortedPost } from '../../store/categoriesSlice'
+import { sortedPost } from '../../store/optionsSlice'
 import { useState } from 'react'
 
 const Navbar = () => {
