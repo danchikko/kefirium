@@ -1,0 +1,67 @@
+import styled from 'styled-components'
+import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { onRegister } from '../../store/registerSlice'
+import { useState } from 'react'
+
+const CompletionRegister = () => {
+	const dispatch = useDispatch()
+    const [idUser, setIdUser] = useState()
+    console.log(idUser)
+
+	const closeHandler = () => {
+	fetch('http://localhost:3000/users').then((responce) => responce.json())
+    .then((data) => setIdUser(data.id))
+        fetch(`http://localhost:3000/users/${idUser}`,{
+            method: 'DELETE'
+        })
+        dispatch(onRegister(false))
+    }
+	return (
+		<CompletionModal>
+			<Links to='/'>Мой профиль</Links>
+			<Links to='/'>Создать коллекцию</Links>
+			<Close onClick={closeHandler}>Выйти</Close>
+		</CompletionModal>
+	)
+}
+
+const CompletionModal = styled.div`
+	width: 200px;
+	border-radius: 16px;
+	background-color: #fafafa;
+	box-shadow: 0 4px 3px 0 rgb(103 59 183 / 10%);
+	padding: 25px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	position: absolute;
+	top: 75px;
+	right: 105px;
+	align-items: flex-start;
+`
+
+const Links = styled(Link)`
+	text-decoration: none;
+	color: #673bb7;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 10px 0;
+	font-weight: 700;
+	:hover {
+		color: #670bb7;
+	}
+`
+
+const Close = styled.p`
+	font-size: 14px;
+	font-weight: 700;
+	color: #673bb7;
+	margin: 10px 0;
+	cursor: pointer;
+	:hover {
+		color: #670bb7;
+	}
+`
+
+export default CompletionRegister

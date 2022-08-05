@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import { FiChevronRight } from 'react-icons/fi'
 import { useDispatch, useSelector } from 'react-redux'
-import { closeCategoriesModal, closeSupportModal, modalSupport } from '../../store/categoriesSlice'
+import { closeCategoriesModal, closeSupportModal, modalSupport } from '../../store/optionsSlice'
 import { Link } from 'react-router-dom'
 
 const HeaderSupport = () => {
-	const modal = useSelector((state) => state.categories.supportModal)
+	const modal = useSelector((state) => state.options.supportModal)
 	const dispatch = useDispatch()
 	return (
 		<div>

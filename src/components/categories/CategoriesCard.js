@@ -4,14 +4,13 @@ import Title from '../UI/typography/Title'
 import {BiRuble} from 'react-icons/bi'
 
 const CategoriesCard = ({ data }) => {
-	const categories = useSelector((state) => state.categories.sorted)
+	const categories = useSelector((state) => state.options.sorted)
     let sort = data
     if(categories === 'all') {
         sort = data
     }else{
         sort = [...data].filter((item) => item.categories === categories) 
     }
-    console.log(sort)
 
 	return (
         <Container>

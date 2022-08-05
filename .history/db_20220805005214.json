@@ -1,0 +1,66 @@
+{
+  "NFTtokens": [
+    {
+      "id": "31.07.2022, 19:23:04",
+      "NFTImage": "blob:http://localhost:3001/802e6b6b-9c1c-422d-adf1-92abd413adcb",
+      "NFTName": "sdfsdsfs",
+      "description": "kdajkjiefkds dsfskl asfkd dsfksd",
+      "reference": "https://kefirium.ru/createNFT",
+      "content": "dsfsdfs dfsfsf dfdsfdsf  dsfdsf",
+      "price": "234"
+    },
+    {
+      "id": "31.07.2022, 19:25:51",
+      "NFTImage": "blob:http://localhost:3001/5fff9459-6c45-4a3d-8f73-334a7ccd9242",
+      "NFTName": "fjghjkgh",
+      "description": "fdsfsf",
+      "reference": "sfsfsdf dfd",
+      "content": "sdfsdfsd",
+      "price": "543"
+    },
+    {
+      "id": "31.07.2022, 19:28:20",
+      "NFTImage": "blob:http://localhost:3001/5d16b561-7920-409b-8180-8ffb67fd161d",
+      "NFTName": "sdfsf dsf sdfsdfsdf",
+      "description": "safsdfs dsfsdfs sdfsdfbtre",
+      "reference": "https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d",
+      "content": "sdfsdf dfdsf",
+      "price": "234"
+    },
+    {
+      "id": "31.07.2022, 19:33:22",
+      "NFTImage": "blob:http://localhost:3001/0321c200-a94a-4dcf-b8c0-7c883de2197b",
+      "NFTName": "hjghjk jkhjk",
+      "description": "kjk jhjk",
+      "reference": "https://kefirium.ru/createNFT",
+      "content": "dffef gef dffdsfre",
+      "price": "85"
+    }
+  ],
+  "Categories": [
+    {
+      "collectionImage": "blob:http://localhost:3001/94a61e82-b344-442b-a360-6a996676c578",
+      "collectionBanner": "blob:http://localhost:3001/1f19d10a-6a16-4c1c-96d1-1bae904f70ef",
+      "collectionName": "sfsdf",
+      "collectionCategories": "photo",
+      "collectionDescription": "sdfsdf dfdsf sdfdsf",
+      "id": 1
+    },
+    {
+      "collectionImage": "blob:http://localhost:3001/94a61e82-b344-442b-a360-6a996676c578",
+      "collectionBanner": "blob:http://localhost:3001/1f19d10a-6a16-4c1c-96d1-1bae904f70ef",
+      "collectionName": "sfsdf",
+      "collectionCategories": "photo",
+      "collectionDescription": "sdfsdf dfdsf sdfdsf",
+      "id": 2
+    },
+    {
+      "id": "01.08.2022",
+      "collectionImage": "blob:http://localhost:3001/94a61e82-b344-442b-a360-6a996676c578",
+      "collectionBanner": "blob:http://localhost:3001/1f19d10a-6a16-4c1c-96d1-1bae904f70ef",
+      "collectionName": "sfsdf dsfsdf",
+      "collectionCategories": "photo",
+      "collectionDescription": "sdfsdf"
+    }
+  ]
+}
