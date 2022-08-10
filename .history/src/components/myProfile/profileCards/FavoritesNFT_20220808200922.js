@@ -1,0 +1,5 @@
+const FavoritesNFT = () => {
+    return (
+        
+    )
+}

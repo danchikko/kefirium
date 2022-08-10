@@ -1,0 +1,17 @@
+import styled from "styled-components";
+import Title from "../../UI/typography/Title";
+
+const ProfileSetting = () => {
+    return (
+        <Container>
+            <Title>Настройки профиля</Title>
+        </Container>
+    )
+}
+
+const Container = styled.div`
+    max-width: 1170px;
+    width: 100%;
+`
+
+export default ProfileSetting;

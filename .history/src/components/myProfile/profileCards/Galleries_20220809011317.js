@@ -1,0 +1,5 @@
+const Galleries = () => {
+    return (
+
+    )
+}
