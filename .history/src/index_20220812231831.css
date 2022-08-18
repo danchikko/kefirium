@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+@font-face {
+  font-family: Situs;
+  src: url(fonts/situs.ttf);
+}
+* {
+
+}
