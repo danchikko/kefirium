@@ -1,0 +1,136 @@
+{
+  "NFTtokens": [
+    {
+      "id": "11.08.2022, 13:26:29",
+      "NFTImage": "https://kefirium.ru/storage/app/uploads/public/627/40f/2f4/62740f2f48edf319297309.jpg",
+      "NFTName": "Розовая роза #001",
+      "description": "Цвет: Розовый Запах: Нежный 100% Шипы: Есть Упаковка: Нет",
+      "reference": "https://html5book.ru/css-background/",
+      "content": "",
+      "price": "79",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 13:31:29",
+      "NFTImage": "https://kefirium.ru/storage/app/uploads/public/627/f7f/bad/thumb_395_370_370_0_0_crop.png",
+      "NFTName": "Д, д",
+      "description": "Д, д - почти во всех славянских языках 5 буква алфавита, кроме украинского - там Д занимает 6 место. В церковнославянской азбуке означает \"добро\". Свою форму берет от буквы Дельта в греческом алфавите, в том числе прописную.",
+      "reference": "https://html5book.ru/css-background/",
+      "content": "",
+      "price": "89",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 13:34:13",
+      "NFTImage": "https://kefirium.ru/storage/app/uploads/public/627/f7c/487/thumb_375_370_370_0_0_crop.png",
+      "NFTName": "Желтый треугольник 004",
+      "description": "Желтый треугольник 004",
+      "reference": "https://www.w3schools.com/react/react_usecallback.asp",
+      "content": "",
+      "price": "89",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 15:20:50",
+      "NFTImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBgUFRUYGBgaGhgZGhobGhgcGhgZGRgZGhgaGhobIS0kGx0qHxgaJTclKi4xNDQ0GiM6PzozPi0zNDEBCwsLEA8QGhISHTMhIyozMzMzMzMzMzMzMTMzMzMzMzMzMzMzMzMzMzMzMzM0MzMzMzMzMzMzMzMzMTEzMzMzM//AABEIALYBFAMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIDBAUGBwj/xABGEAACAQIDBAcECAQDBwUBAAABAgMAEQQSIQUxQVEGEyJhcZGhMoGxwQdCUnKCstHwFCNikhUzoiRDU3PC4fEWRLPD0mT/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EACMRAQEBAAIBBQACAwAAAAAAAAABEQISIQMTMUFRYcEiMnH/2gAMAwEAAhEDEQA/AOS5qUCaINQJqoMihak5u6jDGgOgQaIk0KA8p50dhzpNqBoD0oaUVCqFX7qTfwoUXlQGaUx3UQoidKAUKRR1AqhRXo6AUdFRigFC1HehQFQoqFAdJajoUBUKIU4KAqFHehfxoBahajoqAUKO1ERQChSb0KAqFChlqgxRXoAUfvoBegaK9CgOgTRWo6AUVKvRWoCtQvTkcTMbKpY8gCauMH0Qx0vs4dwObDKPM0y01RijXfWzw30bY1vbaJPFwfy3qfF9GJGsmMRfuozfmIrU4cvxO0c6tR10sfR9gl/zMa5+6iL8b0r/ANI7KX2pp28GQfBK17fL8O0cyo7V0ptg7IXf158ZQPlTR2dscf7uQ+M5+VZ9rkneOd0V66GcHsb/AIUnumc/Km5dlbHcdlsTGeYYuPJkNX2uR3jA3o6020ejMIGaDFKw5SoyWHe4BXzCjvrP43ASxECSMrfcTYq33WF1b3GsXjZ8tSymb0RNJowKgO9Fehajy0CTRhqOiPdQHRgGiBoVQrLR2pN6UGoBaitSreNEVoE0KX5UKgbvRXpNC1AuipN6LNQL0oXpGbvrQbJ2KmXrsUxji3hbgO49/sqee88OdUU+DwkkrZI42duSgm3jyHjWkwnQTFvbPkjH9TXI8QgNTI+mUUY6vDRBUUE6Cw0G8k6kndqN5GtS4+nJjkyS8LBrAEK1hmBsAdDcXqbA9gugOGX/AD8SzH7KLl/1N+lW0ezdlwboA5HGRix8hp6VZY2JcXhGkiPaCkrY8bXtcbwR8RXMUxLODdm0NrfqK9Ppzjy+J5c+ez7dBPSuGEZYoo4+5VRPyi9VeK6dudx8gfnasc1uApp2Nd+n/HPs0OI6WTNxPnb5VXy7Zmbe3x/WqliaaZ6df5N/hYPjZCQC9r7iSAPOmWmYtlzqe8uuX+5jaonWaWoJNlvYDUFdQDodDa+499ZvC/rU5HxKtvaOa+4AEe9r/rTizdwqEH0oB6vDjicrqyXFW5VKjxvfVJ1lKSWusrDSw48jjWl2esUsAUIrKdHQ2tm4ldDlJ32IK67r61z6HEcKscHj3jN1NuY4Hxrl6n+UytcfHwmbb6HZQ0kB7K3LK2mT79ySg/quyH7S7qyM0RRijgqw3gixH758a6Zs3bwky2Yo66g3177HiOYo9p7IhxQAyrHIfZW4WNyd/VPuhkO/Iewx4KTmrycuGO3Hlrl9HWww3RBOrlZ3kaSIktGAI2EYGpIIJDjUkbiuqlgCarodjQzHJEZFc+yGIZSeTEKCt/ta25VmcLV1n6F6XJCysVYZWUlWU6FWU2YHkQQRSTUU2fSlCjIpCnuoFg0q9ED4Uq/fQAe+hloX8aI+FAdvChReVCgYuaK1O0WlQNlaFqXccqkYOENmZhZEF3P5VHeT86CRgYVjXr5VzW9hD9Y3tmPdyHGxO4as7YxDyy2Y3KgA6mwYDtnU2ABuL8lFLWUvKuf6t5GXhZELBO4BVy9xZqgHW9j94/aJ117r0FjsWIBgzC65mdtNCkC9Yw8GIUe6quWQsxZtSxLE8yTc1f4HDyFJUjVnbqY4wqi5vLIsrHu0VlvytTmG6EYxxcoiffcf9N6YNH9E21yHfDMdGGZL+o/f2qpelOCOHxssdrK5zp4Nrp4HMPdVdg4pcDjI84syuuoPZKsbGx4763v0pbP6yGLGIL5LBvuNuPn8a6ely68k5TYwBe1IEl6QGBFxSS1tRXv+XmOsNL+vfUUtTkkrN7RJt6U1xtxrO41IK9C9Px4GVt0bn8Jt57qt8Nse2+J3PEuyqD4KpJt41i85GuqizUaKTuBPgCfhWqjwDjdFGnfld/ktPx4J2064D7qqPzZqne/UXIyyYGU7o29+nxp7/CZLEtlUcyw08q2mH6MtJvd2/GR+QirCLobH9YKfvdr43p35Jkc4GHQaGZL8lDMasYMBI3sJK/eIZCPMA11TDbOCABWRAOCIo+VSUwq/WkZvf+xUvK0yOVjY2Jv2Y3J8VWx/EwrR7P2djHTq3iRxa3bkCgDmzKGtbnW3McVvYQ+Kg/Gkdaq+yAN27Tdu03Vi7Yskit2fsPEyQqJ3UzRi0WIjLBwn/DkLKOsTxHruNOhZQoyOilbXHbCkjittx8b1dLtkaBvefnoPS1TzOCMysGXmK59fGN64p0h6IbQEskrQZw7u5MbCT2mLWy6ObX35dayroVYqwKsN6kEMPEHUV6PbEA1WbUwMM65Zo0kHDMLkfdbeviCKnROzgRNNla6TtX6Po2JOGl6s8EkJKeAcdpfxBvGsftbo9isN/nQuq/bAzIfxrcedqzeNjWqdRS7UoUd6ikBTQyUu9HQJy0KVQoI9qFC/dRKSSABqbADiSdwFApVJIABJNgAOJO4Vto9ig4VcOb3DrLcBTd7FWDZiLoVsBrpl7zRdGujTKRJIBnPsr9VBqCSfrNw03a7+GwGEX2VF2U9o6ixtusd1BgIOisw6y5JZ1K5rJpd1Zjq/EKR+KmZeh0oFyQqjeSBoOJJVie/ca6WmGIpboLfvdxrKnNhbWwsMAULhbg65Zd9/rMWAJYnfpUTavTGNfYjibwkT/qIHrVa/RjCzHNbQ/YKZeWlh86g7c6JYSLCyOoZXRCVZnPtfVXkcxsPfTaMt00x/XsjjIbXzFGDZbkWBI46fCuodHGXGbLRJBdXQoxPEqSrW8CN/hWG+j3o0JQ08ynIRljUkjMdcz24gXsOF83KutbB2UkcBjjFlViV0A1PtaAAeQ4VdHKR0CdCSsjZbsPZFzYkA79DYUpei8a+2JG/tH5BeulOShKlcwuSCLXFySQQbc+HlUWWaM6GwPJhYnwB310nqWMXhGJh2NhRoUH47t+e9XGG2THbs5QP6QPlVpNEnKorYVAdLDw0/Latz1Il4UabPjG+n0hjXcopEZPO/ifnakyPbmP3zFa7Sp1S+vtu0pqSRW0ZVbxAPxqA0/fTbT0tMTUhQG6DKf6SV9AbelSjjgBZwR/VvHpVKZjQ/iiKnamLR8YODXps4zvqlxDg6jsnuphZjxp2Xqvjju+ktjhzqhfE23mmWxY4G/hc/CnY6r5sUDxppce8ZujW7uBqj69j7KMfAb/AHfUdsc3AD3n9Aal5GNfFtrNv0NO/4oOdYY4tuYHuJ+YojjT9s+4D53p2OrbPjweNFF0haPTN2eXDwrDtj+bMffb4Uy2LuRbfzuSfWppjS7RwOBxJLNH1Dnc8QC68S6eyb+APfWO27sGXClSSrxvfJIvssRqVYHVHtrY+4mr7Zuz5ZixWyogLPIxyoijUszHQCtJs58LJG2HEbTxvbMzAgu31WjUaxqNSHNmN+WgnXfhdxyehVr0k2T/CYh4c2dRlZG0uVYXAa2mYag94vxqsrm0K1HQoUEcnvq66JYYPPc/VW47i2gPxqktWi6Jv1fWSaaBRru3Mdf3woOi4aNVAz5itlvY2Ol93ppTb7TkYfzShYaXSPq7jhcZmJPiardk7dWcZQyki4uNPcQdx099M4t7Goqe+No4MacwOfLlBIHBjY2VjY5QTpcA+FUbS0lZdaDRptO/aEYive6h8+pNy17aEnlpQxbpMoWVQyhg2U3yki4GYbmGu46VRLNTiz0Goi2iBwtbQW4W3VY4LpAE7IZfuki/lWI/iaeOGR1Y3Vr5QVNwbmx0tv3Ee+g3O0cRG8XWowvcgrxBFUTSsRa171SR7WSIlZHTtn6zBb665dbd1bvYZgkS62Vha6ki/db7Q8KDPLgmO4FfC49N3pQbByLrvHeLeo/StLt7a0GCjWSVZMrMEXLGSS5BIFjbfY1U7I6Yw4hyI4H7O7O+HT32Z7m+trX9aaI8eFkt7BHv19aX/DS/YPp+taOXaNlzGKO/2f4iEH1sPWoX+NMTYYJ2+5PhH/APtB9Ku1MU77JL74yDzGW/odahz9HJhrGC3cRY+e41p/8aK6tgcYvhEJP/iZqJelGGHtiaP/AJmHnT8yWq9qYw8uFlQ5WjZT32H/AJpDQv3DzPpYVuz0jwMpEfXxMWNgpYAk8gDxqp6SJBBGZGdUXd2jvPJeJPdTsYyjwNxbyA+d6ZeIcST7z8tKgY7pLGrBQHObKR2cos2qm7W015VC/wAadp+oCBGzMtySwzAG2gtcEgceNXRbFVG4DyFNs9ZvD7XlkEnaClULrlAsSpGYHNf6pO7lURsY7wsxds6ut+0RdWBtZQbaFeXGnYaybHOqhc1gL2vl7N9TYkXXnpVO2JTWzqd50OY2AuTZb7hc1XukaxxySJd2U5UByhgHa0khFjruABBOW9wN8yedY5EMmHEavGrqUusiq6lSwzEq1+1ow1FtRvqdjCGxq5S4YlQQpIB0LAlRrbflPlSWxIzItj28pUkgCzMVBJF7ag8OFNPgWj/iIbqy5ElV9QGQMpRlHer+7UVDnJ6mFwR2XkQEDUZSjjXjrIanYxOXFXEhyWaMAlS179sIeA3Fh50qLGFTExRWEl9BdSCHKkXLWO4Hhv4b6DQ/7VMlyc0crX3XJhMouORI3VXyRg4VX4iWRfEFEI8rHzp3p1dSVmxOHjSAgooOaJUuXN7dZZdWZScrD6pynTNULD7NxOFIlljRFyvlDMUcOFJiOW9h2goN+HhVDsaYri58MGZVd2kQoxVkcdsZSDcXQlTzGlS8QgVjnBLjixLN/cxJqSW/a7IjdJ8HeKLEKxcHsyHLYK7lnyjuAG8aXOhrM1tcLMJkfCsRaRbKTuWRTmjbwzAA9xNTsH9E+KYXkmhT7ud/kvxq2Yk8ue0K63H9EMVu1ipL8bIgHkbn1oVNi445apyT5MLIBvd0X0JPoCPfUOnsmaFlG/rIz/cJF+NqVG16NbISOFWyjMwGaWzAo+pXXc0YIykjTQm+6pWONxe1jxHEEaEHwNxVv/h11TK1k6rqXXgFdlWNyN11ZJRfuS9RNqw2yPraRbm+/rE7El9BqbK34zWY1WeZ6R1lSZsOb1GZDVQ4slOh6YC0oLQOl6dimsCeQJqMENMYq4jkt9hvhQUOEwjYuVnclUvqQLm3BEHE29w8gd/0Yx4wsiiFGCrobyhyV1zAjQqNN1t5Gm+qTDYJcPCWkF40ChsoPbkKhil9xsWOneQdF1kx9IyFQhFIfrlyqAUUxqkg9pTfRraAd27WK7BtfAx47DPEx7Migqw3o3tI471YA+61cRx+zMRDLlxLSZg+V1QBiVBU50bWym6kAjQHgN3R+gPSEYiC4GWxPZvfLrqt+IB18GFXO3tgQY5R1l0dRZJEtnUb7G4sw36HmbWvVlRy/afSmJlEYwqIVYg2sSdCQ/bF7n5Gs/PtFGjdjHlW3ZIygF7qMoKgXOQknkPEV0ef6KAxzjFsvZKkCIEMLk9oM5vqfdpbdUCD6NoonV/4iRyrBspRMjEEHtIbhhoLg77VvvU6xiE2vKFDIrRl7BMhYaaC4HHjzrV9EJtoSP1kuLkjw8fakL2AKoASAWG5jfcd1+Nq0EmElQm2LmFySQogQa8skYI86mbB2OssqtO8swQhgssrsuYaglCcp111HAcql2rE3YeEVOt2pOgR5R/KVgA0cKjRm4h3ADNxACjQ3ri/TLbr46TryGyh2RbnsheyVsvBiASTrvA4CunfSntdjh5I0vewBtwQsA3peuRRoGwb66rOhJ7mRgPUGsiNjgxSJ2tYoUX8DEa+Yp7GBhOjMxOYQuGGhsyqbjwNx7qXjlH8LhjroZx/rUj40nboP8g//wA8R8Pa/SpqncLhB/GvCdQHmUi+/KHtcjfqBUXZsYaPEC3aEasDyCyJm9DVwygbU3i3WC/vW7H1NVOxnVVxGYgXw7AX4kvHYDvoLj/BmnmUA5Ylhw7NK5ypHH1KdosSAO1mAG8m/fV/t6bAYrIqYgJJEixI7xuI5FTddwCQN/aIXibbhWVwm0I2w6xTs5CM3V5NXQEXJKEhXW5PFWFzY2Nqdwsa6NHDPOQRYNGEjHIsFZ8/3bgHjcaU62rqRisyuYnKlkwTo2U3HtNImu49lk3VSsv+xg8p2HnGt/yiryHYWOkllkWFv5okBLMLhXNyTrqQKk4boVOckMksYUszqgdRI1wFZlVh2hZRrwq4mq0L/toJ3dSpPLTBhjccRzB0IuKjdY+Iw4jUBpOuuERFUhclicqAALc76u8cuDw8jLKGeRbKc7MT7AUXVLD2bDUVDxHSoKuTDxqg7lCjxyrvqC3wkceFlbF4ghXYWWMENk7IB1HtMQOGgud9VW1ek0TuzRwlr8ZGsP7E1I/FVXtqKaNgZr52F7kg5RyUA9nx/ZqLVZ4StJg9tyllYLCFGpVY1vYHXtOCQffXeeim1VxGGSRWuBdbkFbgeybHUXUg15hcV2/6GcYXwbxn/dyFR3Ke2PV28qWkdIzChScw7vOhUV5Xqx2KoLOh4qD70dWHpeq61StmyhJEY7rkHwZSpPrf3Vpl1vY+BaR3jEsTZXDL2mBMbhC6lGAKkOiMptY2O7NpWY8lEMMjZmXEWzezcuh1y8Lsg86sZ9lQSSmcyHCvGELOpHVsGQMpXNqjWG4XBsdN9Vf0jzsetlXS4hZGFiGRRdHW3C99/KsTdbTodiBxo9uVxeo2M6PyqCQocWOqm58jr5XqTs7agMaSDc6q3mAav49opbVgv3uz+a1NpjBSYSxsQQeRFj5GmTCRXR8qSLZlVwNNQDpwt7qhT7AibdmTwNx5G9XsmMSiipRwYyNIdVQ3bwsDVxiejDj2HVvEFT86hT4OSON0dbK2QXuCDdu6ghbQcxRpms8DhlxC6Bg7WkDr/XcMyn+lwe+p/wAI6pYO2rxtO7JIPZZJIwAD9kkgKQeJHMGruNo3fFJKpZCsaMo32bIAR3qTmB4EVo+jXRpocP8AwswV0VndXuQQGNxp9XQA2BOpOtY7buNYyfQXDS4RykgKFmPYKnMADlzv9m5KWB+zeumYSdtL2vxsTb3XrKdKIGw03WHKqTFVG/OXZ0yqASQFBzG4sbZRzq0wGJzAV0YbfCyhlrKdIdsYbDseslRSDuvc35HkfGqzpb0j/g8KWUnO/ZW2/Xl668ge6uTbR6UtLGI2iiAGmfIpc63N2sCasG4xvTvCfVLN+E/K9QU+kaOMnq0fUW3D5kVzkyAaAanmBpytSXUqdbG9NMbv/wBWxOS8iyAHezJob+BNNNh8DKrKkgTMVJVHyBit7EodLjM1tNL1SbGkT60oU8gDfzNhWmfZUEiF3RCLXL3VTYccy1nKuokvRyJo1j618ilioLR6F7ZtQuu4UifZmDGXrZyxVQoBdBZV3L2VBO899ZeTZwuzBwsOZgjyaFwGtdVUFn7yBYcbU2UgXjJJ4BYx43OcnyFMF7Fh4JZJXAZ7MLHMTmJF8zMbm5N932e/Ta47o1g8MqOsKtnNs8kjJGt1uoZsrBcxsoJsNd+4HAbCx8MbNmXKmUaMS+YjMNSFFvavoOFbDFdPcOYY4wcTmRFVmjESh7JkZT1gYFTqfZ00r1cp6fs8bP8Abbv9OU7drvw0eNwmHw6HqIousDRXS1rq0kavci31WJF7200qvj2hKJMznIqMhKAIuVHncZCuW7PkeJSAbgi4ud+Wn6dxj/LwagZFQZ5GYBVFl9kA+tQcV02xMj9YI4Ee5IcRKzgmwJDPcjRV8hXDW3QJcYTPiYZFEiatkyM7RqiRdWwQ9l1LMzAAXJBtcggM4DZ7L1DsMiKSzF1EYCQ9YkT2c5keRZAxU6CzbibVzbFdJ8bJo2JktyVsg/02qqkmZzd2Zje5LEm5sddadjGl6cYiD+MkZVWW4U5g/YvaxBCbzp9rlWfOIj4wrbmjSBh72Zh6VHZhRBhl7/jWbVW75JVuWLZR7Vu2gH/EUe2v9Yv3jWq3EYVo99ip3MNVbwNNx3BDKWBBuCNCDwNxUn+NcEk5CD7S2GVu8qugbvFjVEJjXW/oUNkxBZlClly5mAF1Azb+51rl7JGxuudb/VsG1PBTcX8q22xtmrAhGpZrX8NTa+nM+dWcdTcdwzJ9pPMUK4/p9keQoVfbOzntqS1jpxOluNeg8H0A2dH/AO3V/wDmM8noxtV3hdnQRaRQon3I1HwFZ1cYSSNJ48HJJnRTHC0gymzyRnKsTMfZbt356X4VWfSW6tGrDjGg00GjuLAcADmFu6t9tvB52UlmUqesjAK2LhcjqQQQbobDxNrHUcv6arIqmN+G4X1AZ2f1BDfirOfapHRTa+DXCxpLKodRYqdLam2p7O63Gr5JI98RlA/oysvkGIrkTx6e9R63qMZipJRipzb1JB07xQdg/j41b20zf1xsjf3qBU6DaAPssT9yRZPR7kVz3ZfTeOPDJFJhhiJAWLSSSNfViVAsMxAFhvqul6WuzXGHhVfsr1mn4mc60wddXHkaZ7ffjN/NSB6VE2zKzxMRkOUXurEk/hy+HGud4XpjbQxyIP6HuP7SBVnhumULWzORw7cYvr/VHf1qYJW0etWbEiNAn8tGUxoczFguW5YsW0zbuINaz6PI8Y+HUzLIrLns0hbM5LEr2G3KAQNQN2lV21sLM7YYxzSKHjkSwdypmjXOq7+yGQG1uKioeE2vNLjo8MZXyYeNGdlbLmdQpe/E5iQND9Y3vwzZ5a+lv02kjSMSTRs0fWZTopeNicwaO+8ixJ8N+66cHLaxG46jwO6qPavSXrT1UkRlRppEYFirIyEWZDrlFiCBusdb63ucGqmNGGe1rdu2e69khraXuDu0rpWWB+kfaBlxSwg9mNRfuZgCT7ly+ZrHzL2gBu0rS9K4CmKkZlIztmVuDLYbj3brd1ZmS4bXhUBXsxPI0YBY8zTuDwUkrZYkeRuSKzH0FdF2P0MjwkX8VtGRYx9WMENIx4KANLnlrVRQbD2AoXrp7Ki666Cj21thSBdbJoY4ToX5STW1CcVTe282Frx9udJHmkzJEqRJpGj9rKeDtc2Z+4gqOXGs9JmYlmbMSbklsxJO8niTWrfxMOTzNIxd2zHv9ABuCjcANBTBNDLzb0PztRWXmT6frWVFm/flQz0enLzP6WoZu4eX60CS16VZuVvGjznmaNZLUAELHv8AC5+F6cbBsAWKmw8P1v6UQxRpX8Y1XwI4K8vO/wAqMv8AsD50TC+4W+FARGoCLE7zRinEwxNTMNhipuN/wq4J+wdmksJXFgNUB4ng3gOHurTmU8TVBFJIeJqXFG53104+Gasuu/qoVH6g99CtI71QY0dqB9wrzuiFtDD9YhUEqw1RvssNx8OB7ia5V0m6PY52NoHlN7llZSpPO7MCfKuxEjvPupBHdQee26EbUe1sKVF76vEOFvt8qdj+i/HtvES+L3/KprvTjwps2oOPJ9FeKe3XYqO40Fs72HdmAqPjfo0xMQ/l2lP9Mixn+101867SQKbLL9oeYoPPOJ6O46Elmw8q9+XOB7xmA8ap8XJKxAkd2I3B2YkX32DHSvTjMOBv4XPwqNiMIkntxq4/rVSPW9NGM6FbRXE4MRuTnTKylfaWaIjIw7zuPc9ZnbgkwpdhHIr9eryZraZGLqAVOiu5cLxKpXRcV0biVCcNGkMgIYZFCqxF+ywAsAb77aaVSS7Tw7spxMYSeNjYsEL5rBTq/C24XtroKLGaOHlOKc4dQ562LEKGHY6udLOz8kGlzwtU3bfS3qn/AMourFmBDWIUscoykcqf6QdJYVjMcCoGKZS6qisyXvk7IsAL3yi401IFwcBj8WXYu5uffyt3cqXyi/n6VwyDLJh3YH6pyML79zVXx7awKOrrgyWXUZiCt93sFih8qzj4jlv1t795qPm7v+360wbTFfSNiCMsQEY4ZVjFv7UrLY3aksz55JHdubMWIHIX3DuFREAvre3dS3j5Brd4/wC9VDbMT+/1pN6cyeNKEJ5UDNCpIwzcqk4bZMsnsRs33VLfAUFbajC1psP0PxbboH965fzWqyw/0fYo71VfvOp/LegxISlCI10rC/RtJ9eVB90O3xC1cYT6O4R7cjn7qqo9SaeByFcMTT8ez3PCu24boVg1tdXb7zW/JarOPYGETdDH+IZvz3psHC4tkMeHrVrhOjEr2yxO3gjEegrt8GHRR/LRV+6gUe4gAVJAb/yf0q9p+GORYXoJiD/uWH3iq/E3q6wv0fS/WaNfxMT6Lb1ro6pzNKCinamMXh+gCD25j4KlvUn5VZ4foZhV39Y/i1h/pA+NaO/fR07UxVx9HcIBbqV95YnzvQq0v30Km0PlvE0BfgAPf+lKoiaiiPefIfreklRSiaQxoCIFJNJY99J05X/fOgNnHOmy/caWb8vOklDzoEZjyA9aSxPOlMg4k+YoFuQ9B8bUDZS/f51Vbb2BFiVyyLrwcWzr3A66dxq4LHl+/dSRQYKb6OIjunkHgEOnDUrUc/Rfhzq02IP4owPyV0NhTYPh7taDDRfRpghvEr+L/wD5UVOi6B4Ff/b3+88h/wCq1ap3PAE+Q87mknOfsjzb9KDMydDMP9TsfdjgNve8ZPrUaToHh21eSd+4ugHkEsK1jI3PysPlf1psx33i/jqfWgzMXQrAD6jN4yMfRLVMh6M4JfZwynva5/O3yq9yNypQiNBXwbOiQfy4Y08EX5AVKubbzT4g/YpXV0VGK91Ar3HyJqUwA1Nh6USsOFz4AkeY0oGUjbw94HwvS1hPFvIfrcelOhXP1beJA+F6Pqn4sB4DXzJPwoErCBzPvPwGlPIoXcAPCwpHUjiWPiT8BYU4qgDQWFEGG8aUDSQ3L5mj15UCxR3pvKeY9w+ZoBO8n329BYUDhcDebeNqAk5An3fM2FBRbcLeVGWtv+VAM7fZHvIv8KFC55nyoUEot40TE8h5/wDahQoEyKRqT5DXzNER7/33UKFAnTlQY0KFA0zmh/4oUKBsyjgPhRsedChQJF+740TDvPw+FChQNyALvHz9T4UONChRRqKHVihQohXVi1EKFCijpsSXuAPOhQoFEHuoinj5kfC1FQoFLAq/VF+drn+4606b86FCiCBNGAe7yP60KFAQHj8PhTmQfvX1NFQoDFGBQoUCA/D9604BQoUBgUAKFCgVQoUKD//Z",
+      "NFTName": "amg 63",
+      "description": "Автомобили Mercedes-Benz AMG создаются специально для тех, кто хочет подчеркнуть свой изысканный стиль и уникальность, сделать свой автомобиль особенным и неповторимым.",
+      "reference": "https://sales.mercedes-avilon.ru/cars/amg/",
+      "content": "",
+      "price": "1200",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 15:53:00",
+      "NFTImage": "blob:http://localhost:3001/f4c160d0-1dc7-46b7-98ef-5e9052088515",
+      "NFTName": "mersedes-benz",
+      "description": "Модели Mercedes-Benz AMG отличаются и интерьером: спортивные сиденья, изысканная отделка салона из премиальных материалов, многофункциональное рулевое колесо – каждая деталь салона автомобиля AMG подчёркивает по-настоящему гоночную атмосферу.",
+      "reference": "https://sales.mercedes-avilon.ru/cars/amg/",
+      "content": "",
+      "price": "1399",
+      "email": "alish@gmail.com"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "11.08.2022",
+      "collectionImage": "blob:http://localhost:3001/aa31e3d1-b38a-48e2-9715-c44be1ee4aeb",
+      "collectionBanner": "blob:http://localhost:3001/c565456a-73a9-49a2-9a3d-bb46d2dceb63",
+      "collectionName": "Азбука NFT",
+      "collectionCategories": "photo",
+      "collectionDescription": "Покупая токены-буквы, вы можете превращать их в более дорогие токены-слова, загрузив ваши буквы на сайт www.tokenwords.ru\n\nРедкие и (или) длинные слова, составленные на сайте будут стоить дороже, короткие — дешевле. На сайте можно составлять даже предложения, которые будут стоить дороже, чем слова по отдельности. Идея коллекции: сначала надо выучить буквы, потом научиться составлять из них слова, потом из слов составлять предложения. Все мы таким образом учились читать и писать. Новое время требует новой цифровой азбуки.",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 14:50:36",
+      "collectionImage": "blob:http://localhost:3001/c22c0501-9cb8-45ae-9157-a8bc968f586c",
+      "collectionBanner": "blob:http://localhost:3001/a5bb2ac3-53f9-45fc-b473-483af4efc444",
+      "collectionName": "Любовь в сети",
+      "collectionCategories": "art",
+      "collectionDescription": "Покупая токен-кольцо, вы получаете второй токен для вашей половинки. Чтобы ваша будущая жена или ваш будущий муж получили токен-кольцо, отправьте им ссылку, находящуюся в скрытом описании ваших колец. Идея коллекции: В XXI веке можно сыграть свадьбу онлайн, в VR, по ZOOM или любым другим способом, для которого достаточно только выхода в интернет. Токен-кольцами можно обменяться не выходя из дома, и даже не касаясь друг друга, но вы станете интернет-женой и интернет-мужем, пока сбой Wi-Fi не разлучит вас.",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 15:17:16",
+      "collectionImage": "blob:http://localhost:3001/554bb5a3-fbb9-4671-9af4-c428a79706df",
+      "collectionBanner": "blob:http://localhost:3001/a3f4631e-adf8-489b-8a45-9d2c065809fe",
+      "collectionName": "Донаты художникам",
+      "collectionCategories": "virtualworlds",
+      "collectionDescription": "Все деньги от покупки токена отправляются начинающему художнику. Имена художников и ссылки и на их соцсети вы найдете в описании токенов. Помните, что художником быть нелегко, а начинающим художникам нелегко вдвойне — им нужны, краски, кисти, бумага и легальный Фотошоп — помогите им, и, возможно, они назовут в вашу честь свою картину. Идея коллекции: Покупай донаты — донать художникам.",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 15:54:24",
+      "collectionImage": "blob:http://localhost:3001/038cd619-34d5-469a-bb19-41bfb427d7c3",
+      "collectionBanner": "blob:http://localhost:3001/7970b0ed-d16c-4bf8-86aa-56b15e4596d6",
+      "collectionName": "Mercedes-Benz AMG",
+      "collectionCategories": "collectibles",
+      "collectionDescription": "Предоставляем возможность купить Mercedes-Benz AMG в Москве у официального дилера АВИЛОН в кредит, в лизинг или по системе «трейд-ин» на невероятно привлекательных условиях.",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 15:59:29",
+      "collectionImage": "blob:http://localhost:3001/4003a9b7-0e56-413d-af1d-0a41a35c10a6",
+      "collectionBanner": "blob:http://localhost:3001/a8fcde09-fed7-488f-a7dc-a9dcb501d47b",
+      "collectionName": "Lamborhini aventador",
+      "collectionCategories": "sport",
+      "collectionDescription": "Прообраз будущего Lamborghini Aventador Roadster, созданный в единственном экземпляре. Технически автомобиль повторяет базовое купе: он оснащён 700-сильным мотором V12",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 16:01:02",
+      "collectionImage": "blob:http://localhost:3001/b141575c-c4c4-4a49-8371-6d46b49e2aa9",
+      "collectionBanner": "blob:http://localhost:3001/fef6899f-90c8-4819-bc3d-2c89c0cf3376",
+      "collectionName": "Мемасики",
+      "collectionCategories": "music",
+      "collectionDescription": "Никакой дополнительной ценности, к ним не привязан скрытый контент, но это не точно.",
+      "email": "alish@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "id": "11.08.2022, 13:24:01",
+      "date": "11.08.2022",
+      "lastName": "Almazbekov",
+      "name": "Daniar",
+      "nickname": "Dani",
+      "email": "danialmazbekov@gmail.com",
+      "password": "90909090"
+    },
+    {
+      "id": "11.08.2022, 15:18:38",
+      "date": "11.08.2022",
+      "lastName": "Arstanov",
+      "name": "Alisher",
+      "nickname": "Alish",
+      "email": "alish@gmail.com",
+      "password": "78787878"
+    }
+  ]
+}

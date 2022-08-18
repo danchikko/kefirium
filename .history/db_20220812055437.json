@@ -1,0 +1,157 @@
+{
+  "NFTtokens": [
+    {
+      "id": "11.08.2022, 13:26:29",
+      "NFTImage": "https://kefirium.ru/storage/app/uploads/public/627/40f/2f4/62740f2f48edf319297309.jpg",
+      "NFTName": "Розовая роза #001",
+      "description": "Цвет: Розовый Запах: Нежный 100% Шипы: Есть Упаковка: Нет",
+      "reference": "https://html5book.ru/css-background/",
+      "content": "",
+      "price": "79",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 13:31:29",
+      "NFTImage": "https://kefirium.ru/storage/app/uploads/public/627/f7f/bad/thumb_395_370_370_0_0_crop.png",
+      "NFTName": "Д, д",
+      "description": "Д, д - почти во всех славянских языках 5 буква алфавита, кроме украинского - там Д занимает 6 место. В церковнославянской азбуке означает \"добро\". Свою форму берет от буквы Дельта в греческом алфавите, в том числе прописную.",
+      "reference": "https://html5book.ru/css-background/",
+      "content": "",
+      "price": "89",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 13:34:13",
+      "NFTImage": "https://kefirium.ru/storage/app/uploads/public/627/f7c/487/thumb_375_370_370_0_0_crop.png",
+      "NFTName": "Желтый треугольник 004",
+      "description": "Желтый треугольник 004",
+      "reference": "https://www.w3schools.com/react/react_usecallback.asp",
+      "content": "",
+      "price": "89",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 15:20:50",
+      "NFTImage": "https://sales.mercedes-avilon.ru/upload/resize_cache/iblock/82c/428_250_2/82c41d0c17924daaf03e03cdf28d6861.jpg",
+      "NFTName": "amg 63",
+      "description": "Автомобили Mercedes-Benz AMG создаются специально для тех, кто хочет подчеркнуть свой изысканный стиль и уникальность, сделать свой автомобиль особенным и неповторимым.",
+      "reference": "https://sales.mercedes-avilon.ru/cars/amg/",
+      "content": "",
+      "price": "1200",
+      "email": "alish@gmail.com"
+      
+    },
+    {
+      "id": "11.08.2022, 15:53:00",
+      "NFTImage": "https://sales.mercedes-avilon.ru/upload/resize_cache/iblock/93b/428_250_2/93bdd4ea418bb9c14be54fbf2ac12150.jpg",
+      "NFTName": "mersedes-benz",
+      "description": "Модели Mercedes-Benz AMG отличаются и интерьером: спортивные сиденья, изысканная отделка салона из премиальных материалов, многофункциональное рулевое колесо – каждая деталь салона автомобиля AMG подчёркивает по-настоящему гоночную атмосферу.",
+      "reference": "https://sales.mercedes-avilon.ru/cars/amg/",
+      "content": "",
+      "price": "1399",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 17:26:29",
+      "NFTImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Az%C9%99rbaycan_D%C3%B6vl%C9%99t_Akademik_Milli_Dram_Teatr%C4%B1.7.jpg/338px-Az%C9%99rbaycan_D%C3%B6vl%C9%99t_Akademik_Milli_Dram_Teatr%C4%B1.7.jpg",
+      "NFTName": "Include words that add value.",
+      "description": "While you may want to avoid the red flag words listed above, there are also words that can help a home listing. “Impeccable,” “luxurious,” and “landscaped” were found to help boost sales prices. So if there’s a jacuzzi tub in the master, luxurious will definitely apply to your real estate listing description.",
+      "reference": "https://www.outboundengine.com/blog/real-estate-listing-description-examples/",
+      "content": "",
+      "price": "97",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 19:15:02",
+      "NFTImage": "https://scontent.ffru1-4.fna.fbcdn.net/v/t39.30808-6/281791351_343181827918570_2883433202831463486_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=MTGZ1fzAgygAX-DRfUK&_nc_ht=scontent.ffru1-4.fna&oh=00_AT8a97HnPT2s2H3NMzBLunEiRNQBiPl_pVKkoDhGiLOvvQ&oe=62FA8A92",
+      "NFTName": "Akademik Milli Dram Teatrı - Rəsmi Səhifə",
+      "description": "CBC kanalında yayımlanan \"Sima\" verilişinin növbəti qonağı Akademik Milli Dram Teatrının bədii rəhbər-direktoru, Xalq artisti Azər Paşa Nemətov olub.",
+      "reference": "https://ru-ru.facebook.com/azdrama.az",
+      "content": "",
+      "price": "308",
+      "email": "alish@gmail.com"
+    }
+  ],
+  "Categories": [
+    {
+      "id": "11.08.2022",
+      "collectionImage": "blob:http://localhost:3001/aa31e3d1-b38a-48e2-9715-c44be1ee4aeb",
+      "collectionBanner": "blob:http://localhost:3001/c565456a-73a9-49a2-9a3d-bb46d2dceb63",
+      "collectionName": "Азбука NFT",
+      "collectionCategories": "photo",
+      "collectionDescription": "Покупая токены-буквы, вы можете превращать их в более дорогие токены-слова, загрузив ваши буквы на сайт www.tokenwords.ru\n\nРедкие и (или) длинные слова, составленные на сайте будут стоить дороже, короткие — дешевле. На сайте можно составлять даже предложения, которые будут стоить дороже, чем слова по отдельности. Идея коллекции: сначала надо выучить буквы, потом научиться составлять из них слова, потом из слов составлять предложения. Все мы таким образом учились читать и писать. Новое время требует новой цифровой азбуки.",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 14:50:36",
+      "collectionImage": "blob:http://localhost:3001/c22c0501-9cb8-45ae-9157-a8bc968f586c",
+      "collectionBanner": "blob:http://localhost:3001/a5bb2ac3-53f9-45fc-b473-483af4efc444",
+      "collectionName": "Любовь в сети",
+      "collectionCategories": "art",
+      "collectionDescription": "Покупая токен-кольцо, вы получаете второй токен для вашей половинки. Чтобы ваша будущая жена или ваш будущий муж получили токен-кольцо, отправьте им ссылку, находящуюся в скрытом описании ваших колец. Идея коллекции: В XXI веке можно сыграть свадьбу онлайн, в VR, по ZOOM или любым другим способом, для которого достаточно только выхода в интернет. Токен-кольцами можно обменяться не выходя из дома, и даже не касаясь друг друга, но вы станете интернет-женой и интернет-мужем, пока сбой Wi-Fi не разлучит вас.",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 15:17:16",
+      "collectionImage": "blob:http://localhost:3001/554bb5a3-fbb9-4671-9af4-c428a79706df",
+      "collectionBanner": "blob:http://localhost:3001/a3f4631e-adf8-489b-8a45-9d2c065809fe",
+      "collectionName": "Донаты художникам",
+      "collectionCategories": "virtualworlds",
+      "collectionDescription": "Все деньги от покупки токена отправляются начинающему художнику. Имена художников и ссылки и на их соцсети вы найдете в описании токенов. Помните, что художником быть нелегко, а начинающим художникам нелегко вдвойне — им нужны, краски, кисти, бумага и легальный Фотошоп — помогите им, и, возможно, они назовут в вашу честь свою картину. Идея коллекции: Покупай донаты — донать художникам.",
+      "email": "danialmazbekov@gmail.com",
+      "nickname": "Dani"
+    },
+    {
+      "id": "11.08.2022, 15:54:24",
+      "collectionImage": "blob:http://localhost:3001/038cd619-34d5-469a-bb19-41bfb427d7c3",
+      "collectionBanner": "blob:http://localhost:3001/7970b0ed-d16c-4bf8-86aa-56b15e4596d6",
+      "collectionName": "Mercedes-Benz AMG",
+      "collectionCategories": "collectibles",
+      "collectionDescription": "Предоставляем возможность купить Mercedes-Benz AMG в Москве у официального дилера АВИЛОН в кредит, в лизинг или по системе «трейд-ин» на невероятно привлекательных условиях.",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 15:59:29",
+      "collectionImage": "blob:http://localhost:3001/4003a9b7-0e56-413d-af1d-0a41a35c10a6",
+      "collectionBanner": "blob:http://localhost:3001/a8fcde09-fed7-488f-a7dc-a9dcb501d47b",
+      "collectionName": "Lamborhini aventador",
+      "collectionCategories": "sport",
+      "collectionDescription": "Прообраз будущего Lamborghini Aventador Roadster, созданный в единственном экземпляре. Технически автомобиль повторяет базовое купе: он оснащён 700-сильным мотором V12",
+      "email": "alish@gmail.com"
+    },
+    {
+      "id": "11.08.2022, 16:01:02",
+      "collectionImage": "blob:http://localhost:3001/b141575c-c4c4-4a49-8371-6d46b49e2aa9",
+      "collectionBanner": "blob:http://localhost:3001/fef6899f-90c8-4819-bc3d-2c89c0cf3376",
+      "collectionName": "Мемасики",
+      "collectionCategories": "music",
+      "collectionDescription": "Никакой дополнительной ценности, к ним не привязан скрытый контент, но это не точно.",
+      "email": "alish@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "id": "11.08.2022, 13:24:01",
+      "date": "11.08.2022",
+      "lastName": "Almazbekov",
+      "name": "Daniar",
+      "nickname": "Dani",
+      "email": "danialmazbekov@gmail.com",
+      "password": "90909090"
+    },
+    {
+      "id": "11.08.2022, 15:18:38",
+      "date": "11.08.2022",
+      "lastName": "Arstanov",
+      "name": "Alisher",
+      "nickname": "Alish",
+      "email": "alish@gmail.com",
+      "password": "78787878"
+    }
+  ]
+}

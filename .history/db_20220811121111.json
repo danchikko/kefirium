@@ -1,0 +1,26 @@
+{
+  "NFTtokens": [
+    {
+      "id": "05.08.2022, 00:56:50",
+      "NFTImage": "blob:http://localhost:3001/4daa8b6f-1248-4c42-a011-3e5cc6308c78",
+      "NFTName": "Желтый треугольник 004",
+      "description": "Желтый треугольник 004",
+      "reference": "",
+      "content": "",
+      "price": "1100",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": "05.08.2022, 00:59:41",
+      "NFTImage": "blob:http://localhost:3001/9f158954-ba9f-4b2b-bae1-4771a0f38ac4",
+      "NFTName": "Розовая роза #001",
+      "description": "Цвет: Розовый Запах: Нежный 100% Шипы: Есть Упаковка: Нет",
+      "reference": "",
+      "content": "",
+      "price": "245",
+      "email": "test@gmail.com"
+    }
+  ],
+  "Categories": [],
+  
+}
