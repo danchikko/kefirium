@@ -9,7 +9,7 @@ import { RiSearchLine } from 'react-icons/ri'
 import Text from '../../UI/typography/Text'
 import { BsHeart } from 'react-icons/bs'
 
-const MyTokens = () => {
+const Own = () => {
 	const [tokens, setTokens] = useState([])
 	const [sortingModal, setSortingModal] = useState(false)
 	const [choice, setChoice] = useState('Выберите')
@@ -347,12 +347,6 @@ const Btn = styled.button`
 	color: #ffffff;
 	background: linear-gradient(88.83deg, #a2349e 7.88%, #e7246a 85.15%);
 	border-radius: 16px;
-	transition: all 0.3s;
-	overflow: hidden;
-	:hover {
-		box-shadow: 0 6px 30px -10px #673bb7;
-		transform: translateY(-5px);
-	}
 `
 
 const Description = styled.p`
@@ -366,4 +360,4 @@ const Description = styled.p`
 	font-size: 13px;
 `
 
-export default MyTokens
+export default Own

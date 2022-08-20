@@ -76,6 +76,12 @@ const ActionsButtons = styled.button`
 		border-radius: 8px;
 		background-color: #fafafa;
 	}
+	:hover {
+		margin-bottom: 8px;
+		& p {
+			display: block;
+		}
+	}
 `
 
 const Share = styled(FiShare2)`
