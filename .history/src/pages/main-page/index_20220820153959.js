@@ -14,15 +14,12 @@ import CategoriesPage from './CategoriesPage'
 import NeedKnow from './NeedKnow'
 import InformationNFT from './Information'
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
-import { allClick } from '../../store/optionsSlice'
 
 const MainPage = () => {
-	const dispatch = useDispatch()
 	return (
 		<Container>
 			<Background>
-				<Flex width='1250px' justify='space-around'>
+				<Flex width="1250px" justify="space-around">
 					<Flex direction='column' width='510px' margin='40px 0 0 0'>
 						<Title margin='30px 0 8px 0' size='46px'>
 							Кефириум - NFT за рубли. NFT для всех.
@@ -35,31 +32,20 @@ const MainPage = () => {
 						</Text>
 						<Text size='16px'>Подробнее</Text>
 						<Flex margin='15px 0 0 0' justify='space-between'>
-							<Link onClick={() => dispatch(allClick())} to="/categories">
-								<Button
-									width='270px'
-									height='60px'
-									color='#673bb7'
-									size='16px'
-									radius='35px'
-									weight='700'
-								>
-									Смотреть коллекции
-								</Button>
+							<Link>
+							
 							</Link>
-							<Link to='/createCollection'>
-								<Button
-									width='200px'
-									height='60px'
-									color='#fafafa'
-									background='#673bb7'
-									radius='35px'
-									weight='700'
-									size='16px'
-								>
-									Создать NFT
-								</Button>
-							</Link>
+							<Link to="/createCollection"><Button
+								width='200px'
+								height='60px'
+								color='#fafafa'
+								background='#673bb7'
+								radius='35px'
+								weight='700'
+								size='16px'
+							>
+								Создать NFT
+							</Button></Link>
 						</Flex>
 					</Flex>
 					<SecondDiv>
@@ -85,7 +71,7 @@ const MainPage = () => {
 					</SecondDiv>
 				</Flex>
 			</Background>
-			<TrendPage />
+            <TrendPage />
 			<Collaction />
 			<Famous />
 			<CategoriesPage />
@@ -142,4 +128,4 @@ const AuthorImg = styled.img`
 	border-radius: 50%;
 	margin: 2px 10px 0 0;
 `
-export default MainPage
+export default MainPage;

@@ -14,11 +14,8 @@ import CategoriesPage from './CategoriesPage'
 import NeedKnow from './NeedKnow'
 import InformationNFT from './Information'
 import { Link } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
-import { allClick } from '../../store/optionsSlice'
 
 const MainPage = () => {
-	const dispatch = useDispatch()
 	return (
 		<Container>
 			<Background>
@@ -35,7 +32,7 @@ const MainPage = () => {
 						</Text>
 						<Text size='16px'>Подробнее</Text>
 						<Flex margin='15px 0 0 0' justify='space-between'>
-							<Link onClick={() => dispatch(allClick())} to="/categories">
+							<Link>
 								<Button
 									width='270px'
 									height='60px'
