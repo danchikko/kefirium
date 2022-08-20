@@ -45,6 +45,7 @@ const RegisterButtons = styled.button`
 	font-size: 14px;
 	line-height: 17px;
 	color: #673bb7;
+	transition: background 0.3s ease;
 	background-color: transparent;
 	border: none;
 	padding: 0;

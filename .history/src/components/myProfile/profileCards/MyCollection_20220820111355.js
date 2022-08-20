@@ -239,12 +239,6 @@ const Btn = styled.button`
 	border: none;
 	border-radius: 16px;
 	cursor: pointer;
-	transition: all 0.3s;
-	overflow: hidden;
-	:hover {
-		box-shadow: 0 6px 30px -10px #673bb7;
-		transform: translateY(-5px);
-	}
 `
 
 const ProfileCards = styled.div`

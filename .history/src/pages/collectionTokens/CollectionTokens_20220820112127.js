@@ -174,15 +174,10 @@ const ComplaintButton = styled.button`
 	box-shadow: 0px 4px 3px rgba(103, 59, 183, 0.1);
 	border: none;
 	background-color: #fafafa;
+	transition: margin-top 0.3s ease;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: all 0.3s;
-	overflow: hidden;
-	:hover {
-		box-shadow: 0 6px 30px -10px #673bb7;
-		transform: translateY(-5px);
-	}
 `
 
 const Complain = styled(TiInfoLargeOutline)`
@@ -221,12 +216,6 @@ const ButtonBuy = styled.button`
 	color: #ffffff;
 	font-weight: 700;
 	cursor: pointer;
-	transition: all 0.3s;
-	overflow: hidden;
-	:hover {
-		box-shadow: 0 6px 30px -10px #673bb7;
-		transform: translateY(-5px);
-	}
 `
 
 const LikesBlock = styled.div`
