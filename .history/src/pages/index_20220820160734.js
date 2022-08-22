@@ -17,6 +17,7 @@ import CollectionToken from './collectionTokens'
 import CreateNFT from './createNFT/CreateNFT'
 import MainPage from './main-page'
 import Profile from './profile'
+import UserProfile from './userProfile'
 
 const Main = () => {
 	const dispatch = useDispatch()
@@ -41,6 +42,7 @@ const Main = () => {
 				<Route path='/createCollection' element={<ProtectedRoute><CreateNewCollection /></ProtectedRoute>}/>
 				<Route path='/collection/token/:id' element={<CollectionToken />} />
 				<Route path='/collection/:id' element={<Collections />} />
+				<Route path='/profile/:id' element={<UserProfile />} />
 			</Routes>
 		</nav>
 	)

@@ -41,6 +41,7 @@ const Main = () => {
 				<Route path='/createCollection' element={<ProtectedRoute><CreateNewCollection /></ProtectedRoute>}/>
 				<Route path='/collection/token/:id' element={<CollectionToken />} />
 				<Route path='/collection/:id' element={<Collections />} />
+				<Route path='/profile' />
 			</Routes>
 		</nav>
 	)

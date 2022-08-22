@@ -17,6 +17,7 @@ import CollectionToken from './collectionTokens'
 import CreateNFT from './createNFT/CreateNFT'
 import MainPage from './main-page'
 import Profile from './profile'
+import UserProfile from './userProfile'
 
 const Main = () => {
 	const dispatch = useDispatch()

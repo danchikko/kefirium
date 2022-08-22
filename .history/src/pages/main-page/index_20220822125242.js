@@ -24,7 +24,7 @@ const MainPage = () => {
 	useEffect(() => {
 		fetch('http://localhost:3000/NFTtokens')
 			.then((responce) => responce.json())
-			.then((data) => setState(data.slice(7, 8)))
+			.then((data) => setState(data.slice(5, 6)))
 	}, [])
 	return (
 		<Container>
@@ -74,7 +74,7 @@ const MainPage = () => {
 					</Flex>
 					{state.map((el) => {
 						return (
-							<Link style={{textDecoration: 'none'}} key={el.id} to={`/collection/token/${el.id}`}>
+							<Link key={el.id} to={`/collection/token/${el.id}`}>
 								<SecondDiv>
 									<MainImg src={el.NFTImage} alt='mainImg' />
 									<Title
@@ -139,7 +139,6 @@ const SecondDiv = styled.div`
 	border-radius: 18px;
 	background: #ffff;
 	margin-top: 50px;
-	cursor: pointer;
 `
 
 const MainImg = styled.img`

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import ProfileCards from "../../components/myProfile/profileCards";
 import Navbar from "../../components/myProfile/profileControls/Navbar";
-import ProfileInfo from "../../components/myProfile/profileInfo";
 
 const Profile = () => {
     return (
