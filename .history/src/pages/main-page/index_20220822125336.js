@@ -24,7 +24,7 @@ const MainPage = () => {
 	useEffect(() => {
 		fetch('http://localhost:3000/NFTtokens')
 			.then((responce) => responce.json())
-			.then((data) => setState(data.slice(7, 8)))
+			.then((data) => setState(data.slice(6, 7)))
 	}, [])
 	return (
 		<Container>
@@ -139,7 +139,6 @@ const SecondDiv = styled.div`
 	border-radius: 18px;
 	background: #ffff;
 	margin-top: 50px;
-	cursor: pointer;
 `
 
 const MainImg = styled.img`

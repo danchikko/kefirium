@@ -139,7 +139,6 @@ const SecondDiv = styled.div`
 	border-radius: 18px;
 	background: #ffff;
 	margin-top: 50px;
-	cursor: pointer;
 `
 
 const MainImg = styled.img`

@@ -1,14 +1,13 @@
 import styled from "styled-components";
 import ProfileCards from "../../components/myProfile/profileCards";
 import Navbar from "../../components/myProfile/profileControls/Navbar";
-import ProfileInfo from "../../components/myProfile/profileInfo";
 
 const Profile = () => {
     return (
         <Container>
             <Wrapper backround={'https://kefirium.ru/storage/app/uploads/public/62d/918/82e/62d91882ebcac874158950.png'} />
             <Block>
-                <ProfileInfo />
+                <ProfileIn
                 <Navbar />
                 <ProfileCards />
             </Block>

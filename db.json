@@ -290,6 +290,15 @@
       "nickname": "Davlet",
       "email": "davlet2010@gamil.com",
       "password": "20100118"
+    },
+    {
+      "id": "22.08.2022, 13:36:19",
+      "date": "22.08.2022",
+      "lastName": "Almazbekov",
+      "name": "Daniar",
+      "nickname": "Dancho",
+      "email": "danch@gmail.com",
+      "password": "123456789"
     }
   ]
 }

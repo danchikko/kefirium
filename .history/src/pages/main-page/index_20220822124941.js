@@ -4,6 +4,8 @@ import backround from '../../aseets/images/backround.webp'
 import Flex from '../../components/UI/position/Flex'
 import Text from '../../components/UI/typography/Text'
 import Title from '../../components/UI/typography/Title'
+import img from '../../aseets/images/recomended.png'
+import author from '../../aseets/images/author.webp'
 import { BiRuble } from 'react-icons/bi'
 import Button from '../../components/UI/buttons/Button'
 import Collaction from './Collaction'
@@ -24,7 +26,7 @@ const MainPage = () => {
 	useEffect(() => {
 		fetch('http://localhost:3000/NFTtokens')
 			.then((responce) => responce.json())
-			.then((data) => setState(data.slice(7, 8)))
+			.then((data) => setState(data.slice(5, 6)))
 	}, [])
 	return (
 		<Container>
@@ -74,28 +76,28 @@ const MainPage = () => {
 					</Flex>
 					{state.map((el) => {
 						return (
-							<Link style={{textDecoration: 'none'}} key={el.id} to={`/collection/token/${el.id}`}>
+							<Link key={el.id} to={`/collection/token/${el.id}`}>
 								<SecondDiv>
-									<MainImg src={el.NFTImage} alt='mainImg' />
+									<MainImg src={el.NF} alt='mainImg' />
 									<Title
 										margin='15px 0 0 15px'
 										color='#002946'
 										size='16px'
 									>
-										{el.NFTName}
+										Желтый треугольник 004
 									</Title>
 									<Price>
 										<Flex>
 											<AuthorImg
-												src='https://kefirium.ru/storage/app/uploads/public/627/400/aee/627400aeeb3ac078788860.jpg'
+												src={author}
 												alt='authorImg'
 											/>
 											<Text color='#d9226e' size='12px'>
-												{el.nickname}
+												Evgenyi
 											</Text>
 										</Flex>
 										<Flex>
-											{el.price} <BiRuble />
+											1100 <BiRuble />
 										</Flex>
 									</Price>
 								</SecondDiv>
@@ -139,7 +141,6 @@ const SecondDiv = styled.div`
 	border-radius: 18px;
 	background: #ffff;
 	margin-top: 50px;
-	cursor: pointer;
 `
 
 const MainImg = styled.img`
